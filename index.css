@@ -71,6 +71,10 @@ nav .menu-text{
 	font-size: 13px;
 	text-transform: uppercase;
 }
+.second-p {
+	color: #565655;
+	font-weight: bold;
+}
 .main-img-wrapper {
 	/* width: 590px;
 	height: 630px; */
@@ -346,4 +350,10 @@ nav .menu-text{
 	display: block;
 	color: #414241;
 	font-size: 11px;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1200px;
+  }
 }
