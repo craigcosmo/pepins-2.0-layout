@@ -351,7 +351,33 @@ nav .menu-text{
 	color: #414241;
 	font-size: 11px;
 }
-
+.filter-wrapper {
+	text-align: right;
+}
+.fil-text{
+	color: #6D6E6D;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-right: 20px;
+}
+.fil-sep {
+	padding-right: 4px;
+	padding-left: 4px;
+	color: #6D6E82 !important;
+}
+.fil-link {
+	color: #6D6E82 !important;
+	font-size: 12px;
+}
+.fil-link.active{
+	color: #1A1933;
+}
+.comment-action {
+	color: #6D6E6D;
+	font-size: 12px;
+	margin-right: 16px;
+}
 @media (min-width: 1280px) {
   .container {
     width: 1200px;
