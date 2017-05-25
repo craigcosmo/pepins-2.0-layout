@@ -401,3 +401,8 @@ nav .menu-text{
   	width: 100%
   }
 }
+@media (min-width: 100px) {
+	.cfs {
+		width: 100%
+	}
+}
