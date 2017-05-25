@@ -93,7 +93,7 @@ nav .menu-text{
 	background: #fff;
 	color: #565655;
 	text-align: center;
-	padding: 40px 30px 30px 30px;
+	padding: 40px 60px 30px 60px;
 }
 .main-box p {
 	padding-bottom: 20px;
@@ -148,7 +148,7 @@ nav .menu-text{
 	padding-top: 27px;
 }
 .main-box-wrapper {
-	margin: 45px 105px 45px 10px;
+	margin: 45px 115px 45px 10px;
 	box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.18);
 }
 .mini-nav {
