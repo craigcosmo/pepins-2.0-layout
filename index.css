@@ -410,16 +410,14 @@ nav .menu-text{
 		width: 100%
 	}
 }
-@media (min-width: 768px) {
+
+@media (max-width: 992px) {
 	.main-img-wrapper {
 	   padding-right: 0;
 	}
-	
-}
-@media (width: 768px) {
 	.main-box-wrapper {
-		/* margin: 45px 195px 45px 10px; */
-		/* margin-right: 15px; */
-		/* margin-left: 15px; */
+		margin: 45px 15px 45px 15px !important;
+		/* margin-right: 15px;
+		margin-left: 15px; */
 	}
 }
