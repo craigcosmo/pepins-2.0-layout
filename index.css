@@ -112,8 +112,9 @@ nav .menu-text{
 	/* margin-left: -15px;
 	margin-right: -15px; */
 }
-.noleft {
+.nopad {
 	padding-left: 0;
+	padding-right: 0;
 }
 .ooi {
 	background: #DFD9CE;
@@ -397,6 +398,16 @@ nav .menu-text{
 .df {
 	display: flex;
 }
+@media (min-width: 768px) {
+	.kol {
+	  	width: 626px
+	  }
+}
+@media (min-width: 992px) {
+	.kol {
+	  	width: 726px
+	  }
+}
 @media (min-width: 1280px) {
   .container {
     width: 1250px;
@@ -415,6 +426,9 @@ nav .menu-text{
 }
 
 @media (max-width: 992px) {
+	/* .kol {
+		width: 826px
+	} */
 	.main-img-wrapper {
 	   padding-right: 0;
 	}
