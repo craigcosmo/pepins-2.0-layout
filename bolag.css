@@ -4,3 +4,80 @@
 .mib img {
 	max-width: 100%;
 }
+.bolag-foot {
+	background: url('image/man-bg.png') no-repeat center center;
+	background-size: cover;
+}
+.mrr {
+	margin-bottom: 60px;
+}
+.big-box-img-wrapper{
+	text-align: center;
+}
+.lg-box {
+	text-align: center;
+	background: #fff;
+
+	position: relative;
+	height: 100%;
+	/* padding-bottom: 30px; */
+}
+.lg-box img {
+	max-width: 100%;
+}
+.lg-box-btn {
+	border: solid 5px #1A1919;
+	text-align: center;
+	padding: 7px 21px;
+	/* width: 190px; */
+	display: inline-block;
+	font-weight: bold;
+}
+.hop{
+	margin-bottom: 68px;
+}
+.kik {
+	padding-top: 88px;
+}
+.smaller-header {
+	font-size: 21px;
+}
+.cac {
+	text-transform: uppercase;
+}
+.round-badge {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 15px;
+}
+.round-badge-inner {
+	width: 100%;
+	height: 100%;
+	
+}
+.round-badge i {
+	font-style: normal;
+	/* display: block; */
+}
+.round-badge.choco {
+	background: #B9AEA9;
+}
+.round-badge.green {
+	background: #8CF3D2;
+}
+.corner-badge{
+	background: #FFCCBF;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	text-align: center;
+}
+.lg-box-text {
+	padding: 25px 25px 30px 25px;
+}
