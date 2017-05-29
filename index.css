@@ -105,7 +105,6 @@ nav .menu-text{
 }
 .second-p {
 	color: #565655;
-	font-weight: bold;
 }
 .main-img-wrapper {
 	/* width: 590px;
@@ -152,7 +151,7 @@ nav .menu-text{
 	text-align: center;
 }
 .f-p {
-	font-size: 8px;
+	font-size: 0.8rem;
 }
 .hu {
 	border-top: 1px solid #373534;
