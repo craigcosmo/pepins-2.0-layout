@@ -1,3 +1,26 @@
+@import url('font.css');
+
+body{
+	font-family: 'apercu', arial;
+	font-weight: 300 !important;
+}
+.mono {
+	font-family: 'apercu mono';
+	/* font-weight: 300 !important; */
+}
+.monobold{
+	font-family: 'apercu mono';
+	font-weight: bold;
+}
+.al{
+	font-weight: 100;
+}
+.am {
+	font-weight: 400;
+}
+.ab {
+	font-weight: 500;
+}
 .logo-wrapper {
 	flex: 1;
 	/* background: blue; */
