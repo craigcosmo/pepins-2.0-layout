@@ -1,0 +1,110 @@
+ADOBE INDESIGN - TRYCKINSTRUKTIONER FÖR TJÄNSTLEVERANTÖR
+
+DOKUMENTNAMN:  PEP-WEB-ALLA-BOLAG.indd
+
+PACKNINGSDATUM:  2017-05-29 13:33
+Skapad:  2017-05-29
+Senast ändrad:  2017-05-29
+
+KONTAKTINFORMATION
+
+Företagsnamn:  
+Kontakt:  
+Adress:  
+
+
+
+
+
+Telefon:  
+Faxnummer:  
+E-postadress:  
+
+SÄRSKILDA INSTRUKTIONER OCH ANDRA MEDDELANDEN
+
+
+
+
+
+
+Externa plugin-program 0
+Icke-ogenomskinliga objekt: På sidan1
+
+TECKENSNITT
+13 använda; 0 saknade, 0 inbäddade, 0 ofullständiga, 0 skyddade
+
+Teckensnitt som packats
+- Namn:  Apercu-Black; Typ:  OpenType Type 1, Status:  OK
+- Namn:  Apercu-Bold; Typ:  OpenType Type 1, Status:  OK
+- Namn:  Apercu-Light; Typ:  OpenType Type 1, Status:  OK
+- Namn:  Apercu-Medium; Typ:  OpenType Type 1, Status:  OK
+- Namn:  Apercu-MonoBold; Typ:  OpenType Type 1, Status:  OK
+- Namn:  Apercu-Regular; Typ:  OpenType Type 1, Status:  OK
+- Namn:  BreweryNo2Pro-Black; Typ:  OpenType TrueType, Status:  OK
+- Namn:  BreweryNo2Pro-Bold; Typ:  OpenType TrueType, Status:  OK
+- Namn:  BreweryNo2Pro-Light; Typ:  OpenType TrueType, Status:  OK
+- Namn:  BreweryNo2Pro-Medium; Typ:  OpenType TrueType, Status:  OK
+- Namn:  BreweryNo2Pro-MediumIt; Typ:  OpenType TrueType, Status:  OK
+- Namn:  BreweryNo2Pro-XBold; Typ:  OpenType TrueType, Status:  OK
+- Namn:  MinionPro-Regular; Typ:  OpenType Type 1, Status:  OK
+
+
+FÄRGER OCH BLÄCK
+4 processfärger; 2 dekorfärger
+
+- Namn och typ:  Cyan (processfärg); Vinkel:  0,000; Linjer/tum:  0,000
+- Namn och typ:  Magenta (processfärg); Vinkel:  0,000; Linjer/tum:  0,000
+- Namn och typ:  Gul (processfärg); Vinkel:  0,000; Linjer/tum:  0,000
+- Namn och typ:  Svart (processfärg); Vinkel:  0,000; Linjer/tum:  0,000
+- Namn och typ:  Ny färgruta; Vinkel:  0,000; Linjer/tum:  0,000
+- Namn och typ:  PANTONE 171 U; Vinkel:  0,000; Linjer/tum:  0,000
+
+
+LÄNKAR OCH BILDER
+(Endast saknade och inbäddade länkar)
+Länkar och bilder:  13 hittade; 0 ändrade, 0 saknade 0 otillgängliga
+Bilder: 0 inbäddade, 13 använder RGB-färgmodell
+
+
+UTSKRIFTSINSTÄLLNINGAR
+PPD: E/T, (Pepins skrivare)
+Skriv ut till: Skrivare
+Antal kopior: 1
+Uppslag: Nej
+Jämna/udda sidor: Båda
+Sidor: Alla
+Korrektur: Nej
+Passram: Ingen
+Förstoringsgrad: 35 %, 35 %
+Sidplacering: Centrera vågrätt
+Skriv ut lager: Synliga och utskrivbara lager
+Pass- och skärmärken: Ingen
+Utfall: 0 mm, 0 mm, 0 mm, 0 mm
+Färg: Sammansatt RGB
+Svällningsläge: inget
+Skicka bildinformation: Alla
+OPI/DCS-bildersättning: Nej
+Sidstorlek: Anpassad: 420 mm x 1200 mm
+Pappersformat: 297,039 mm x 420,158 mm
+Orientering: Stående
+Negativ: Nej
+Vändningsläge: Av
+
+
+FILLISTA
+
+1. PEP-WEB-ALLA-BOLAG.indd; text:  Adobe InDesign-publikation; storlek:  8228K
+2. PEP-WEB-ALLA-BOLAG.idml; text:  InDesign-dokument med kommentarer; storlek:  141K
+3. apercu-black.otf; text:  Teckensnittsfil; storlek:  66K
+4. apercu-bold.otf; text:  Teckensnittsfil; storlek:  90K
+5. apercu-light.otf; text:  Teckensnittsfil; storlek:  89K
+6. apercu-medium.otf; text:  Teckensnittsfil; storlek:  98K
+7. apercu-mono-bold.otf; text:  Teckensnittsfil; storlek:  25K
+8. apercu-regular.otf; text:  Teckensnittsfil; storlek:  96K
+9. 652022.ttf; text:  Teckensnittsfil; storlek:  0K
+10. 652032.ttf; text:  Teckensnittsfil; storlek:  0K
+11. 652026.ttf; text:  Teckensnittsfil; storlek:  0K
+12. 652027.ttf; text:  Teckensnittsfil; storlek:  0K
+13. 652025.ttf; text:  Teckensnittsfil; storlek:  0K
+14. 652030.ttf; text:  Teckensnittsfil; storlek:  0K
+15. MinionPro-Regular.otf; text:  Teckensnittsfil; storlek:  212K
