@@ -6,6 +6,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script>
+		$(function(){
+		 	$('.menu-btn-wrapper').on('click', function(e){
+		 		e.preventDefault()
+		 		$('.opened-menu').show()
+		 	})
+		 	$('.close-menu').on('click',function(e){
+		 		e.preventDefault()
+		 		$('.opened-menu').hide()
+		 	})
+		})
+	</script>
 </head>
 <body>
 
@@ -349,5 +362,9 @@
 			</div>
 		</div>
 	</footer>
+	<div class="opened-menu text-center">
+		<span class="close-menu"></span>
+		<div><a href="" class="menu-link">alla bolag</a></div>
+	</div>
 </body>
 </html>
