@@ -323,7 +323,7 @@ box
 .bolag-foot {
 	background: url('image/lady.png') no-repeat center center;
 	background-size: cover;
-	height: 411px;
+	/* min-height: 411px; */
 }
 .jol{
 	/* font-size: 33px; */
@@ -335,6 +335,8 @@ box
 .f-wrap {
 	display: flex;
 	height: 100%;
+	min-height: 411px;
+	padding-top: 55px;
 }
 .f-inner {
 	margin-top: auto;
@@ -343,7 +345,7 @@ box
 	margin-bottom: 89px;
 }
 .f-inner h1.jol{
-	width: 500px;
+	width: 90%;
 	margin-bottom: 30px;
 }
 .tlink {
@@ -428,14 +430,23 @@ box
 	.sao {
 		width: 726px
 	}
+	/* .f-inner{
+		width: 100px !important;
+	} */
 }
 @media (min-width: 992px) {
 	.sao {
 		width: 980px
 	}
+	/* .f-inner{
+		width: 100px !important;
+	} */
 }
 @media (min-width: 1280px) {
 	.sao {
 		width: 980px
 	}
+	/* .f-inner{
+		width: 100px !important;
+	} */
 }
