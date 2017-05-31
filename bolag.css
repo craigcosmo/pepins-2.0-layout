@@ -35,6 +35,9 @@
 .lg-box img {
 	max-width: 100%;
 }
+.lg-box-img-wrapper {
+	position: relative;
+}
 .lg-box-btn {
 	border: solid 5px #1A1919;
 	text-align: center;
@@ -42,6 +45,11 @@
 	/* width: 190px; */
 	display: inline-block;
 	font-weight: bold;
+}
+.lg-box-text {
+	padding: 25px 25px 30px 25px;
+	display: flex;
+	flex-direction: column;
 }
 .hop{
 	margin-bottom: 68px;
@@ -84,9 +92,7 @@
 .round-badge.green {
 	background: #8CF3D2;
 }
-.lg-box-img-wrapper {
-	position: relative;
-}
+
 .force-b{
 	margin-top: auto;
 }
@@ -112,11 +118,7 @@
 .corner-badge i {
 	font-style: normal;
 }
-.lg-box-text {
-	padding: 25px 25px 30px 25px;
-	display: flex;
-	flex-direction: column;
-}
+
 .f-wrap {
 	display: flex;
 	height: 100%;
