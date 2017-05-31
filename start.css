@@ -147,6 +147,22 @@
 .kop {
 	background: #499493;
 }
+.ogv {
+	background: url('image/start-bg.png') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	/* height: 500px; */
+	min-height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ogv h1 {
+	color: #fff;
+	font-size: 85px;
+	max-width: 500px;
+	text-align: center;
+}
 .kop, .sal {
 	font-size: 11px;
 	color: #fff;
@@ -216,8 +232,8 @@
 	height: 80px;
 	border-radius: 40px;
 	position: absolute;
-	top: -15px;
-	left: -15px;
+	top: -11px;
+	left: -11px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
