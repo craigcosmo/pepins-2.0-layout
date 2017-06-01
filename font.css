@@ -1,37 +1,121 @@
 @font-face {
-  font-family: 'apercu';
-  font-style: normal;
-  font-weight: 100;
-  src: url(font/apercu-light.woff2) format('woff2');
+	font-family: 'apercu';
+	font-style: normal;
+	font-weight: 100;
+	src: url(font/apercu-light.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'apercu';
-  font-style: normal;
-  font-weight: 300;
-  src: url(font/apercu-regular.woff2) format('woff2');
+	font-family: 'apercu';
+	font-style: normal;
+	font-weight: 300;
+	src: url(font/apercu-regular.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'apercu';
-  font-style: normal;
-  font-weight: 400;
-  src: url(font/apercu-medium.woff2) format('woff2');
+	font-family: 'apercu';
+	font-style: normal;
+	font-weight: 400;
+	src: url(font/apercu-medium.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'apercu';
-  font-style: normal;
-  font-weight: 500;
-  src:url(font/apercu-bold.woff2) format('woff2');
+	font-family: 'apercu';
+	font-style: normal;
+	font-weight: 500;
+	src:url(font/apercu-bold.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'apercu mono';
-  font-style: normal;
-  font-weight: normal;
-  src:url(font/apercu-mono.woff2) format('woff2');
+	font-family: 'apercu mono';
+	font-style: normal;
+	font-weight: normal;
+	src:url(font/apercu-mono.woff2) format('woff2');
 }
 @font-face {
-  font-family: 'apercu mono';
-  font-style: normal;
-  font-weight: bold;
-  src:url(font/apercu-monobold.woff2) format('woff2');
-}
+	font-family: 'apercu mono';
+	font-style: normal;
+	font-weight: bold;
+	src:url(font/apercu-monobold.woff2) format('woff2');
 
+}@font-face {
+	font-family:'BreweryNo2Pro-Black';
+	src:url('font/BreweryNo2Pro-Black.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 600;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-HeavyIt';
+	src: url('font/BreweryNo2Pro-HeavyIt.woff2') format('woff2');
+	font-style: italic;
+	font-weight: 700;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-Italic';
+	src: url('font/BreweryNo2Pro-Italic.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-MediumIt';
+	src: url('font/BreweryNo2Pro-MediumIt.woff2') format('woff2');
+	font-style: italic;
+	font-weight: 200;
+
+}
+@font-face {
+	font-family:'BreweryNo2Pro-Light';
+	src: url('font/BreweryNo2Pro-Light.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-Medium';
+	src: url('font/BreweryNo2Pro-Medium.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 200;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-LightIt';
+	src: url('font/BreweryNo2Pro-LightIt.woff2') format('woff2');
+	font-style: italic;
+	font-weight: 100;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-Regular';
+	src: url('font/BreweryNo2Pro-Regular.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-XBold';
+	src: url('font/BreweryNo2Pro-XBold.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-XBoldIt';
+	src: url('font/BreweryNo2Pro-XBoldIt.woff2') format('woff2');
+	font-style: italic;
+	font-weight: 400;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-Bold';
+	src: url('font/BreweryNo2Pro-Bold.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-BlackIt';
+	src: url('font/BreweryNo2Pro-BlackIt.woff2') format('woff2');
+	font-style: italic;
+	font-weight: 600;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-BoldIt';
+	src: url('font/BreweryNo2Pro-BoldIt.woff2') format('woff2');
+	font-style: italic;
+	font-weight: 500;
+}
+@font-face {
+	font-family:'BreweryNo2Pro-Heavy';
+	src: url('font/BreweryNo2Pro-Heavy.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 700;
+}

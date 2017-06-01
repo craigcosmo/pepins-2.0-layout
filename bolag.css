@@ -7,7 +7,7 @@
 .bolag-foot {
 	background: url('image/man-bg.png') no-repeat center center;
 	background-size: cover;
-	height: 300px;
+	/* min-height: 300px; */
 }
 .max-hi{
 	height: 100%;
@@ -122,15 +122,18 @@
 .f-wrap {
 	display: flex;
 	height: 100%;
+	padding-top: 60px;
 }
 .f-inner {
 	margin-top: auto;
 	width: 520px;
 	font-size: 19px;
+	width: 100%;
 }
 .f-inner h1{
 	width: 400px;
 	margin-bottom: 30px;
+	max-width: 90%;
 }
 .tlink {
 	font-size: 30px;
