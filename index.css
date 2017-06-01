@@ -8,6 +8,10 @@ body{
 a{
 	color: #0C6FA6;
 }
+.brew {
+	font-family: 'brew';
+	font-weight: 200;
+}
 .opened-menu {
 	background: rgba(255, 255, 255, 0.5);
 	position: fixed;
@@ -451,8 +455,24 @@ nav .menu-text{
 	font-size: 12px;
 	margin-right: 16px;
 }
+.byt {
+	font-weight: 400;
+}
+.fiveh{
+	font-weight: 500;
+}
+.fourh{
+	font-weight: 400;
+}
+.sixh{
+	font-weight: 600;
+}
+
 .df {
 	display: flex;
+}
+.fib {
+	font-weight: 500;
 }
 @media (min-width: 768px) {
 	.kol {

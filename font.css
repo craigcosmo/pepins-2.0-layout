@@ -35,87 +35,87 @@
 	src:url(font/apercu-monobold.woff2) format('woff2');
 
 }@font-face {
-	font-family:'BreweryNo2Pro-Black';
+	font-family:'brew';
 	src:url('font/BreweryNo2Pro-Black.woff2') format('woff2');
 	font-style: normal;
-	font-weight: 600;
-}
-@font-face {
-	font-family:'BreweryNo2Pro-HeavyIt';
-	src: url('font/BreweryNo2Pro-HeavyIt.woff2') format('woff2');
-	font-style: italic;
 	font-weight: 700;
 }
 @font-face {
-	font-family:'BreweryNo2Pro-Italic';
-	src: url('font/BreweryNo2Pro-Italic.woff2') format('woff2');
-	font-style: normal;
-	font-weight: 300;
+	font-family:'brew';
+	src: url('font/BreweryNo2Pro-HeavyIt.woff2') format('woff2');
+	font-style: italic;
+	font-weight: 600;
 }
 @font-face {
-	font-family:'BreweryNo2Pro-MediumIt';
+	font-family:'brew';
+	src: url('font/BreweryNo2Pro-Italic.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 200;
+}
+@font-face {
+	font-family:'brew';
 	src: url('font/BreweryNo2Pro-MediumIt.woff2') format('woff2');
 	font-style: italic;
-	font-weight: 200;
+	font-weight: 300;
 
 }
 @font-face {
-	font-family:'BreweryNo2Pro-Light';
+	font-family:'brew';
 	src: url('font/BreweryNo2Pro-Light.woff2') format('woff2');
 	font-style: normal;
 	font-weight: 100;
 }
 @font-face {
-	font-family:'BreweryNo2Pro-Medium';
+	font-family:'brew';
 	src: url('font/BreweryNo2Pro-Medium.woff2') format('woff2');
 	font-style: normal;
-	font-weight: 200;
+	font-weight: 300;
 }
 @font-face {
-	font-family:'BreweryNo2Pro-LightIt';
+	font-family:'brew';
 	src: url('font/BreweryNo2Pro-LightIt.woff2') format('woff2');
 	font-style: italic;
 	font-weight: 100;
 }
 @font-face {
-	font-family:'BreweryNo2Pro-Regular';
+	font-family:'brew';
 	src: url('font/BreweryNo2Pro-Regular.woff2') format('woff2');
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 200;
 }
 @font-face {
-	font-family:'BreweryNo2Pro-XBold';
+	font-family:'brew';
 	src: url('font/BreweryNo2Pro-XBold.woff2') format('woff2');
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 500;
 }
 @font-face {
-	font-family:'BreweryNo2Pro-XBoldIt';
+	font-family:'brew';
 	src: url('font/BreweryNo2Pro-XBoldIt.woff2') format('woff2');
 	font-style: italic;
+	font-weight: 500;
+}
+@font-face {
+	font-family:'brew';
+	src: url('font/BreweryNo2Pro-Bold.woff2') format('woff2');
+	font-style: normal;
 	font-weight: 400;
 }
 @font-face {
-	font-family:'BreweryNo2Pro-Bold';
-	src: url('font/BreweryNo2Pro-Bold.woff2') format('woff2');
-	font-style: normal;
-	font-weight: 500;
-}
-@font-face {
-	font-family:'BreweryNo2Pro-BlackIt';
+	font-family:'brew';
 	src: url('font/BreweryNo2Pro-BlackIt.woff2') format('woff2');
 	font-style: italic;
-	font-weight: 600;
+	font-weight: 700;
 }
 @font-face {
-	font-family:'BreweryNo2Pro-BoldIt';
+	font-family:'brew';
 	src: url('font/BreweryNo2Pro-BoldIt.woff2') format('woff2');
 	font-style: italic;
-	font-weight: 500;
+	font-weight: 400;
 }
 @font-face {
-	font-family:'BreweryNo2Pro-Heavy';
+	font-family:'brew';
 	src: url('font/BreweryNo2Pro-Heavy.woff2') format('woff2');
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 600;
 }
