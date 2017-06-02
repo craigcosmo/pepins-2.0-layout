@@ -102,11 +102,14 @@
 	border: 0;
 	background: #fff;
 }
+.nim {
+	font-size: 30px;
+}
 .kap th:first-child{
 	padding-left: 20px;
 }
-.lop{
-	margin-bottom: 30px;
+.lip{
+	margin-bottom: 40px;
 }
 .kap td {
 	border: 0;
@@ -392,7 +395,12 @@
 .corner-badge i {
 	font-style: normal;
 }
-box
+.ai-wrapper {
+	margin-bottom: 88px;
+}
+.ai-wrapper img {
+	max-width: 100%;
+}
 .f-wrap {
 	display: flex;
 	height: 100%;
@@ -406,11 +414,27 @@ box
 	width: 400px;
 	margin-bottom: 30px;
 }
+.hodor{
+	font-weight: 500;
+}
 .tlink {
 	font-size: 30px;
 }
+.vik {
+	font-size: 27px;
+	margin-bottom: 50px;
+}
 .mma {
 	margin-bottom: 86px !important;
+}
+.nopad {
+	padding-left: 0;
+	padding-right: 0;
+}
+@media (min-width: 100px) {
+	.kam {
+		width: 100%
+	}
 }
 @media (min-width: 768px) {
 	.sao {
