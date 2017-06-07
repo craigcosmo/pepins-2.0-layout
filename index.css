@@ -232,6 +232,7 @@ nav .menu-text{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	font-family: 'brew';
 }
 .mini-nav li a{
 	color: #7E7E7D;
@@ -271,6 +272,8 @@ nav .menu-text{
 	color: #7E7E7D;
 	font-style: italic;
 	/* margin-bottom: 12px; */
+	font-family: 'brew';
+	font-weight: 200;
 }
 .menu-group {
 	width: 100%;
