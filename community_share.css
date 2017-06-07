@@ -1,0 +1,57 @@
+.com-wrapper {
+	width: 100%;
+	background: #fff;
+	padding: 30px 34px;
+}
+.com-wrapper .kk-btn {
+	background: #F3F3F3;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.11);
+	margin-bottom: 22px;
+}
+.com-wrapper .iru {
+	margin-bottom: 40px;
+}
+.com-wrapper .fil-text{
+	color: #6D6E6D;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-right: 20px;
+}
+.com-wrapper .fil-link {
+	color: #6D6E82 !important;
+	font-size: 12px;
+}
+.com-wrapper .fil-link.active{
+	color: #1A1933;
+}
+.com-wrapper .for-date {
+	display: block;
+	margin-bottom: 22px;
+	color: #414241;
+}
+.com-wrapper .comment-action {
+	color: #6D6E6D;
+	font-size: 12px;
+	margin-right: 16px;
+}
+.com-wrapper .fil-sep {
+	padding-right: 4px;
+	padding-left: 4px;
+	color: #6D6E82 !important;
+}
+.com-wrapper .fil-t {
+	font-size: 12px;
+	color: #6D6E6D;
+	padding-bottom: 10px;
+	display: block;
+}
+.com-wrapper .hu {
+	border-top: 1px solid #373534;
+	border-bottom: 1px solid #817D78;
+	margin-top: 22px;
+	margin-bottom: 26px;
+}
