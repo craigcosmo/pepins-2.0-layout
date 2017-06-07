@@ -233,6 +233,7 @@ nav .menu-text{
 	margin: 0;
 	padding: 0;
 	font-family: 'brew';
+	font-weight: 300;
 }
 .mini-nav li a{
 	color: #7E7E7D;
