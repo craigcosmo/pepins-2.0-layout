@@ -4,35 +4,6 @@
 .mib img {
 	max-width: 100%;
 }
-.lg-box {
-	text-align: center;
-	background: #fff;
-	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
-	position: relative;
-	height: 100%;
-	margin-right: 5px;
-	margin-left: 5px;
-	/* padding-bottom: 30px; */
-}
-.lg-box img {
-	max-width: 100%;
-}
-.lg-box-img-wrapper {
-	position: relative;
-}
-.lg-box-btn {
-	border: solid 5px #1A1919;
-	text-align: center;
-	padding: 7px 21px;
-	/* width: 190px; */
-	display: inline-block;
-	font-weight: bold;
-}
-.lg-box-text {
-	padding: 25px 25px 30px 25px;
-	display: flex;
-	flex-direction: column;
-}
 .max-hi{
 	height: 100%;
 }
