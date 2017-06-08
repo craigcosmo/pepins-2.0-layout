@@ -49,7 +49,12 @@ a{
 	font-family: 'apercu mono';
 	font-weight: bold;
 }
-
+.sela {
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
 .logo-wrapper {
 	flex: 1;
 	/* background: blue; */
@@ -175,6 +180,12 @@ nav .menu-text{
 }
 .f-p {
 	font-size: 0.8rem;
+}
+.f-wrap {
+    display: flex;
+    height: 100%;
+    min-height: 411px;
+    padding-top: 55px;
 }
 .hu {
 	border-top: 1px solid #373534;
@@ -469,12 +480,6 @@ nav .menu-text{
 .mib img {
 	max-width: 100%;
 }
-
-.bolag-foot {
-	background: url('image/man-bg.png') no-repeat center center;
-	background-size: cover;
-	/* min-height: 300px; */
-}
 .bh1 {
 	font-weight: 600;
 }
@@ -495,16 +500,28 @@ nav .menu-text{
 	font-weight: 500;
 	z-index: 40;
 }
-.f-wrap {
+.ft-wrap {
 	display: flex;
 	height: 100%;
 	padding-top: 60px;
 }
-.f-inner {
+.bolag-footy {
+	background: url('image/man-bg.png') no-repeat center center;
+	background-size: cover;
+}
+.ft-inner {
 	margin-top: auto;
 	width: 520px;
 	font-size: 19px;
 	width: 100%;
+}
+.ft-inner h1{
+	width: 400px;
+	margin-bottom: 30px;
+	max-width: 90%;
+}
+.tlink {
+	font-size: 30px;
 }
 .corner-badge{
 	background: #FFCCBF;
@@ -779,7 +796,14 @@ nav .menu-text{
 	display: flex;
 	flex-direction: column;
 }
-
+.lg-box-btn{
+	border: solid 5px #1A1919;
+	text-align: center;
+	padding: 7px 21px;
+	/* width: 190px; */
+	display: inline-block;
+	font-weight: bold;
+}
 
 .kk-btn {
 	background: #F3F3F3;
@@ -1163,49 +1187,31 @@ nav .menu-text{
 	margin-top: 22px;
 	margin-bottom: 26px;
 }
-@media (min-width: 768px) {
-	.sao {
-		width: 726px
-	}
+.mdf{
+	margin-bottom: 20px;
 }
 
-@media (min-width: 100px) {
-	.kam {
-		width: 100%
-	}
-}
 @media (min-width: 768px) {
 	.kali {
 		width: 726px
 	}
-	.kol {
+/* 	.kol {
 		width: 626px
-	}
+	} */
 }
 @media (min-width: 992px) {
-	.sao {
-		width: 980px
-	}
 	.kali {
 		width: 826px
 	}
 }
 @media (min-width: 1280px) {
-	.sao {
-		width: 980px
-	}
+
 	.kali {
 		width: 980px
 	}
-	.container {
-		width: 1250px;
-	}
-	.kol {
+/* 	.kol {
 		width: 960px
-	}
-	.cfs {
-		width: 100%
-	}
+	} */
 }
 @media (min-width: 100px) {
 	.cfs {
@@ -1219,8 +1225,5 @@ nav .menu-text{
 	}
 	.main-box-wrapper {
 		margin: 45px 15px 45px 15px;
-	}
-	.kol {
-		width: 726px
 	}
 }
