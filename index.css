@@ -36,6 +36,7 @@ a{
 }
 .v * {
 	display: inline-block;
+	vertical-align: middle;
 }
 .cik h6{
 	margin-bottom: 2px;
@@ -52,8 +53,12 @@ a{
 	display: inline-block;
 	font-size: 12px;
 }
+.doo * {
+	vertical-align: middle;
+}
 .sasa {
 	display: flex;
+	margin-bottom: 15px;
 }
 .sa1 {
 	flex: 1;
@@ -562,6 +567,7 @@ nav .menu-text{
 	background: #fff;
 	padding: 30px 30px;
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
+	margin-bottom: 30px;
 }
 .chartw img {
 	max-width: 100%;
@@ -932,7 +938,7 @@ nav .menu-text{
 	font-weight: 400;
 }
 .perw {
-	min-width: 300px;
+	width: 100%;
 }
 .kolo {
 	margin-bottom: 0;
