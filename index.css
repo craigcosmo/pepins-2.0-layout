@@ -8,6 +8,9 @@ body{
 a{
 	color: #0C6FA6;
 }
+/* .camelia { */
+	/* min-height: 100px; */
+/* } */
 .jong {
 	font-size: 30px;
 }
@@ -395,9 +398,16 @@ nav .menu-text{
 	align-items: center;
 	justify-content: center;
 }
+.camelia {
+	height: 100%;
+}
 .cur {
 	font-size: 10px;
 	color: #242323;
+}
+.maxh {
+	height: 100%;
+
 }
 .stay {
 	position: fixed;
@@ -406,6 +416,7 @@ nav .menu-text{
 	right: 0;
 	left: 0;
 	top: 0;
+	min-height: 100px;
 }
 /* .imd {
 	width: 150px;
@@ -1415,7 +1426,28 @@ nav .menu-text{
 .mdf{
 	margin-bottom: 20px;
 }
-
+@media (min-width: 100px) {
+	.bou{
+		margin-top: 120px;
+	}
+	.stay {
+		height: 100px;
+	}
+	.logo-wrapper{
+		padding-left: 0;
+	}
+}
+@media (min-width: 576px) {
+	.bou{
+		margin-top: 120px;
+	}
+	.stay {
+		height: 100px;
+	}
+	.logo-wrapper{
+		padding-left: 0;
+	}
+}
 @media (min-width: 768px) {
 	.kali {
 		width: 726px
