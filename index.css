@@ -91,9 +91,6 @@ headline7 {
 	height: 1px;
 	border-bottom: solid 1.3px #000;
 }
-.jong {
-	font-size: 30px;
-}
 .bex {
 	margin-bottom: 15px;
 	font-size: 17px;
@@ -222,7 +219,6 @@ headline7 {
 	font-weight: bold;
 }
 .sela {
-    font-size: 30px;
     display: inline-block;
     margin-top: 60px;
     margin-bottom: 40px;
@@ -595,7 +591,7 @@ nav .menu-text{
 	color: #1D73AC;
 }
 .press-wrapper {
-	padding: 35px 40px;
+	padding: 30px 40px;
 }
 .foot {
 	padding-top: 75px;
@@ -671,9 +667,7 @@ nav .menu-text{
 .byt {
 	font-weight: 400;
 }
-.threeh{
-	font-weight: 300;
-}
+
 .fiveh{
 	font-weight: 500;
 }
