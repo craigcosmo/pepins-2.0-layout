@@ -737,7 +737,7 @@ nav .menu-text{
 	max-width: 90%;
 }
 .tlink {
-	font-size: 30px;
+	/* font-size: 30px; */
 }
 .corner-badge{
 	background: #FFCCBF;
@@ -798,9 +798,7 @@ nav .menu-text{
 	display: inline-block;
 	font-weight: bold;
 }
-.cac {
-	text-transform: uppercase;
-}
+
 .f-inner h1{
 	width: 400px;
 	margin-bottom: 30px;
@@ -916,7 +914,6 @@ nav .menu-text{
 	background: #000;
 	text-align: center;
 }
-
 .oll {
 	font-size: 25px;
 }
