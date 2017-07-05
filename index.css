@@ -49,10 +49,16 @@ h6{
 	font-weight: 500;
 	font-size: 16px;
 }
-headline7 {
+.vasi {
+	margin-bottom: 20px;
+}
+.headline7 {
 	font-family: 'apercu';
 	font-weight: 500;
 	font-size: 14px;
+}
+.aci {
+	margin-bottom: 24px;
 }
 .descopy{
 	font-family: 'apercu';
@@ -550,6 +556,16 @@ nav .menu-text{
 .abd {
 	padding-top: 82px;
 	padding-bottom: 103px;
+}
+
+.bnav .page-link{
+	padding-top: 0;
+	padding-bottom: 0;
+
+}
+.bnav{
+	margin-bottom: 0;
+	margin-top: 24px;
 }
 .bnav li a{
 	background: transparent;
@@ -1370,7 +1386,7 @@ nav .menu-text{
 }
 .handel-box {
 	background: #DDD7D1;
-	padding: 35px 40px;
+	padding: 35px 40px 30px 40px;
 }
 .handel-table td {
 	border: 0;
@@ -1384,11 +1400,11 @@ nav .menu-text{
 }
 .kalen-box {
 	background: #fff;
-	padding: 35px 40px;
+	padding: 35px 40px 20px 40px;
 }
 .pep-box{
 	background: #C3DCD3;
-	padding: 35px 40px;
+	padding: 35px 40px 30px 40px;
 }
 .kop {
 	background: #499493;
