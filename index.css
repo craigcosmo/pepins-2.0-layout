@@ -358,12 +358,7 @@ nav .menu-text{
     min-height: 411px;
     padding-top: 55px;
 }
-.hu {
-/* 	border-top: 1px solid #373534;
-	border-bottom: 1px solid #817D78; */
-	margin-top: 22px;
-	margin-bottom: 26px;
-}
+
 .main-box-btn {
 	border: solid 5px #1A1919;
 	text-align: center;
@@ -696,25 +691,23 @@ nav .menu-text{
 .bh1 {
 	font-weight: 600;
 }
-.hop{
-	margin-bottom: 68px;
-}
 .camer {
 	margin-bottom: 20px;
 }
 .round-badge {
-	width: 80px;
-	height: 80px;
+	width: 72px;
+	height: 72px;
 	border-radius: 40px;
 	position: absolute;
-	top: -11px;
-	left: -11px;
+	top: -10px;
+	left: -10px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	font-size: 15px;
-	font-weight: 500;
+	font-size: 12px;
+	font-weight: 600;
 	z-index: 40;
+	font-family: 'apercu';
 }
 .ft-wrap {
 	display: flex;
@@ -1436,7 +1429,7 @@ nav .menu-text{
 }
 .green-box-img-wrapper {
 	position: relative;
-	padding: 40px 13% 30px 13%;
+	padding: 40px 13% 20px 13%;
 }
 .green-box-text {
 	padding: 25px 25px 30px 25px;

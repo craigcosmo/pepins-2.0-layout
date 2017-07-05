@@ -23,6 +23,12 @@
 	src:url(font/apercu-bold.woff2) format('woff2');
 }
 @font-face {
+	font-family: 'apercu';
+	font-style: normal;
+	font-weight: 600;
+	src:url(font/apercu-black.woff2) format('woff2');
+}
+@font-face {
 	font-family: 'apercu mono';
 	font-style: normal;
 	font-weight: normal;
