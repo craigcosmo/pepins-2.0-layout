@@ -87,6 +87,8 @@ headline7 {
 	/* height: 1.3px; */
 	border-bottom: solid 1.3px #000;
 	border-top: 0;
+	margin-bottom: 42px;
+	margin-top: 0;
 }
 .line2 {
 	border-bottom: solid 1.3px #000;
@@ -697,6 +699,9 @@ nav .menu-text{
 .hop{
 	margin-bottom: 68px;
 }
+.camer {
+	margin-bottom: 20px;
+}
 .round-badge {
 	width: 80px;
 	height: 80px;
@@ -770,7 +775,7 @@ nav .menu-text{
 	margin-bottom: 30px;
 }
 .tyi {
-	padding-top: 88px;
+	padding-top: 61px;
 }
 
 .o-list{
@@ -1491,10 +1496,7 @@ nav .menu-text{
 	margin-right: 5px;
 	margin-left: 5px;
 }
-.kik {
-	padding-top: 88px;
-	padding-bottom: 55px;
-}
+
 .com-wrapper .kk-btn {
 	background: #F3F3F3;
 	text-align: center;
