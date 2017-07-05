@@ -93,6 +93,11 @@ headline7 {
 .line2 {
 	border-bottom: solid 1.3px #000;
 	border-top: 0;
+	margin-bottom: 11px;
+	margin-top: 0px;
+}
+.h4bot{
+	margin-bottom: 8px;
 }
 .bex {
 	margin-bottom: 15px;
@@ -438,10 +443,6 @@ nav .menu-text{
 	/* margin-bottom: 12px; */
 	margin-bottom: 22px;
 }
-.ht{
-	border-top: 1px solid #3D3C3C;
-	border-bottom: 1px solid #858584;
-}
 .tagline {
 	color: #7E7E7D;
 	font-style: italic;
@@ -563,7 +564,6 @@ nav .menu-text{
 }
 .ch {
 	text-align: center;
-	margin-bottom: 22px;
 }
 .contact-form .name-wrapper {
 	margin-bottom: 20px;
@@ -662,10 +662,6 @@ nav .menu-text{
 	font-size: 12px;
 	margin-right: 16px;
 }
-.byt {
-	font-weight: 400;
-}
-
 .fiveh{
 	font-weight: 500;
 }
@@ -887,11 +883,7 @@ nav .menu-text{
 	background: #94C7BA;
 }
 .mrr {
-	margin-bottom: 60px;
-}
-
-.lop{
-	margin-bottom: 30px;
+	margin-bottom: 48px;
 }
 .red-num {
 	color: #EF887E;
@@ -931,10 +923,6 @@ nav .menu-text{
 .round-badge.green {
 	background: #8CF3D2;
 }
-.green-box-img-wrapper img {
-	max-height: 105px;
-	margin-bottom: 25px;
-}
 
 .hou{
 	margin-bottom: 14px;
@@ -950,6 +938,9 @@ nav .menu-text{
 	margin-left: 5px;
 	/* padding-bottom: 30px; */
 }
+.vas {
+
+}
 .lg-box img {
 	max-width: 100%;
 }
@@ -957,7 +948,7 @@ nav .menu-text{
 	position: relative;
 }
 .lg-box-text {
-	padding: 25px 25px 30px 25px;
+	padding: 24px 25px 36px 25px;
 	display: flex;
 	flex-direction: column;
 }
@@ -995,11 +986,6 @@ nav .menu-text{
 .nim {
 	font-size: 30px;
 }
-.lip{
-	margin-bottom: 40px;
-}
-
-
 .ser{
 	font-size: 24px;
 	margin-bottom: 10px;
@@ -1094,6 +1080,14 @@ nav .menu-text{
 }
 .green-box-img-wrapper span {
 	font-size: 26px;
+}
+.green-box-img-wrapper img {
+	max-height: 105px;
+	margin-bottom: 25px;
+}
+.green-box-img-wrapper {
+	position: relative;
+	padding: 20px 13% 20px 13%;
 }
 .kmm {
 	font-size: 24px;
@@ -1321,7 +1315,7 @@ nav .menu-text{
 	position: absolute;
 	top: 1%;
 	left: 5.5%;
-	font-size: 41px;
+	font-size: 36px;
 	font-weight: 500;
 	letter-spacing: 5px;
 }
@@ -1345,16 +1339,21 @@ nav .menu-text{
 	padding-left: 5px;
 }
 .khal {
-	font-size: 20px !important;
+	font-size: 18px !important;
 	font-weight: bold !important;
+	font-family: 'apercu';
 }
 .ding {
 	text-align: center;
 	font-size: 15px;
 	display: inline-block;
 	max-width: 120px;
-	margin-bottom: 5px;
-	font-weight: 400;
+	margin-bottom: 12px;
+	font-weight: 500;
+
+}
+.malun {
+
 }
 .m40 {
 	margin-bottom: 40px;
@@ -1427,10 +1426,7 @@ nav .menu-text{
 	width: 100px;
 	display: inline-block;
 }
-.green-box-img-wrapper {
-	position: relative;
-	padding: 40px 13% 20px 13%;
-}
+
 .green-box-text {
 	padding: 25px 25px 30px 25px;
 	display: flex;
@@ -1573,7 +1569,7 @@ nav .menu-text{
 @media (min-width: 1280px) {
 
 	.kali {
-		width: 980px
+		width: 960px
 	}
 }
 @media (min-width: 100px) {
