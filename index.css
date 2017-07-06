@@ -252,6 +252,7 @@ h6{
 	flex: 1;
 	min-width: 150px;
 	display: block;
+	background-position: 15px;
 	/* background-color: red; */
 }
 .join-btn {
