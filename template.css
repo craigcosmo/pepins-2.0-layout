@@ -1,0 +1,156 @@
+
+
+input[type=button], input[type=submit]{
+	font-size:8pt;
+}
+
+#dhtmltooltip{
+	position: absolute;
+	left: -300px;
+	border: 1px solid black;
+	padding: 2px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+}
+
+
+#dhtmlpointer{	
+	position:absolute;
+	left: -300px;
+	z-index: 101;
+	visibility: hidden;
+}
+
+
+#splash{
+}
+
+.tab{
+	padding:2px;
+	float:left;
+	border:1px solid #000000;
+	background-color:#e0e0e0;
+}
+.selected{
+	background-color:#c6c6c6;
+}
+
+#error_display_box{
+	background: #fff4d0;
+	border-style:dashed;
+	border-width: 2px;
+	border-color:#000000;
+	padding: 2px 2px 2px 2px;
+	height:40px;
+	/*width:30%;*/
+	float:left;
+	vertical-align:middle;
+	overflow:hidden;
+	margin-top:10px;
+	visibility:hidden;
+}
+#error_display{
+	background: url(images/icons/exclamation.png) no-repeat 1px 1px;
+	padding: 2px 2px 2px 20px;
+	height:60px;
+	overflow:auto;
+}
+
+.error_display_box{
+	background: #fff4d0;
+	border-style:dashed;
+	border-width: 2px;
+	border-color:#000000;
+	padding: 2px 2px 2px 2px;
+	height:40px;
+	/*width:30%;*/
+	float:left;
+	vertical-align:middle;
+	overflow:hidden;
+	margin-top:10px;
+	visibility:hidden;
+}
+.error_display{
+	background: #fff4d0 url(images/icons/exclamation.png) no-repeat 1px 1px;
+	padding: 2px 2px 2px 20px;
+	overflow:auto;
+}
+
+#system_info_box{
+	position:relative;
+	z-index:2;
+	height:10px;
+	float:right;
+	margin-right:2px;
+	text-align: right;
+}
+
+#area_menu_head{
+	background-repeat: no-repeat;
+ 	height:97px;
+ 	margin-top:2px;
+ 	margin-right: 4px;
+ 	margin-bottom:2px;
+ 	padding:0px;
+	width: 100%;
+	vertical-align:middle;
+}
+
+#area_menu_menu{
+ 	margin-top:2px;
+ 	margin-right: 4px;
+ 	margin-bottom:2px;
+ 	padding:1px;
+	width: 100%;
+	vertical-align:middle;
+}
+
+#area_menu{
+	background-color: #FFFFFF;
+ 	border:1px solid #000000;
+ 	margin-top:2px;
+ 	margin-right: 4px;
+ 	margin-bottom:2px;
+	width: 100%;
+}
+
+#area_main_area{
+	background-color:#FFFFFF;
+}
+	
+.warning{background: #fff4d0;font-weight:bold;}
+
+
+
+.optional{
+	display:none;
+}
+	
+iframe.viewer{
+	border:0px;
+	
+}
+.batchProcessorUi{
+	width:200px;
+	padding:5px;
+}
+.progressBar{
+	height:20px;
+	float:left;
+}
+.progressBar.complete{
+	background-color:#00FF00;
+	border:0px;
+	width:0%;
+}
+
+.progressBar.uncomplete{
+	border:1px solid #000000;
+	width:100%;
+	background-color:#FF0000;
+}
+
+
+
+

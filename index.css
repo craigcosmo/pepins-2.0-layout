@@ -1119,6 +1119,10 @@ nav .menu-text{
 	display: block;
 	line-height: 25px;
 }
+.avi{
+	margin-bottom: 0;
+	background: #EEE9DF;
+}
 .cih {
 	border: 2px solid #000;
 	box-shadow: inset 2px 2px 6px 0px rgba(0,0,0,0.18);
@@ -1126,7 +1130,8 @@ nav .menu-text{
 	padding-left: 5px;
 	font-size: 20px;
 }
-.kop-btn, .sal-btn {
+
+.kop-btn, .sal-btn, .gen-btn {
 	color: #fff;
 	letter-spacing: 2px;
 	font-size: 21px;
@@ -1134,6 +1139,10 @@ nav .menu-text{
 	padding: 6px 32px;
 	display: inline-block;
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
+	border: 0;
+}
+.gen-btn {
+	background: #6CB4A4;
 }
 .kop-btn {
 	background: #4C83B4;

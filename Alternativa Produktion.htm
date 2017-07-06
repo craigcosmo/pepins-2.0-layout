@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- saved from url=(0022)http://23.251.132.178/ -->
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!--<base href="http://23.251.132.178/">-->
+	<base href=".">
+	<title>Alternativa Produktion</title>
+	<link rel="stylesheet" type="text/css" href="./Alternativa Produktion_files/template.css">
+	<link rel="stylesheet" type="text/css" href="./Alternativa Produktion_files/env_specific_style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="template.css">
+	<link rel="stylesheet" type="text/css" href="product.css">
+	<link rel="stylesheet" href="index.css">
+	<script type="text/javascript">
+		var basePath = "http://23.251.132.178/";
+	</script>
+</head>
+
+<body>
+	<!-- write out tooltip DIV, must be defined before loading global jsfile -->
+	<div id="dhtmltooltip" style="top:40px;left:40px;"></div>
+	<!-- write out splashscreen DIV, must be defined before loading global jsfile -->
+	<div class="splash" id="splash">
+		<div id="splash_content"></div>
+	</div>
+	<script type="text/javascript" src="./Alternativa Produktion_files/functions.js"></script>
+	<script type="text/javascript" src="./Alternativa Produktion_files/jquery-1.2.pack.js"></script>
+	<script type="text/javascript">
+		/* 
+		 * Handle conflict between jQuery and Prototype,
+		 * Prototype is now used with $() and jquery with jQuery()
+		 */
+		jQuery.noConflict();
+	</script>
+	<script type="text/javascript" src="./Alternativa Produktion_files/jquery.form.js"></script>
+	<!-- Start Menu -->
+	<div id="area_menu_head">
+		<div id="error_display_box">
+			<div id="error_display"></div>
+		</div>
+		<div id="system_info_box">
+			<table style="border:0px;">
+				<tbody>
+					<tr>
+						<td><b>Miljö:</b></td>
+						<td> <b>Handel</b>, syfte: Bedriva skarp handel</td>
+					</tr>
+					<tr>
+						<td><b>Inloggad som:</b></td>
+						<td>Leif Hansen </td>
+					</tr>
+					<tr>
+						<td><b>Aktiva kunder:</b></td>
+						<td>9748</td>
+					</tr>
+					<tr>
+						<td><b>Aktiva bolag:</b></td>
+						<td>78</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="container cfs">
+		<div class="row">
+			<div class="col-lg-10">
+				<div class="hola">
+					<a href="http://23.251.132.178/?module=user&amp;type=interest">Intressenter</a> :: 
+					<a href="http://23.251.132.178/?module=user&amp;type=customer">Kunder</a> :: 
+					<a href="http://23.251.132.178/company">Bolag</a> :: 
+					<a href="http://23.251.132.178/?module=mail&amp;sub=news">Nyhetsbrev</a> || 
+					<a href="http://23.251.132.178/trade">Handel</a> :: 
+					<a href="http://23.251.132.178/trade/manage_trade">Skapa Handel</a> :: 
+					<a href="http://23.251.132.178/trade/archive?init=true" onclick="toogle_splash(&#39;Bearbetar...&#39;,&#39;Förbereder arkivet&#39;,true);">
+							Arkiv
+						</a> :: 
+						<a href="http://23.251.132.178/?module=mail&amp;sub=view_mail_queue&amp;view_status=1">Epost</a> :: <a href="http://23.251.132.178/?module=export&amp;sub=export_index">Rapporter</a> || <a style="color:#FF0000;" href="http://23.251.132.178/?module=admin">Administrera</a>
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="text-right"> 
+					<a href="http://23.251.132.178/?module=&amp;language=sv">Sv</a> | 
+					<a href="http://23.251.132.178/?module=&amp;language=en">En</a> 
+				</div>
+			</div>
+		</div>
+	   
+	   
+	</div>
+	<!-- Start Loading Module -->
+	<script type="text/javascript" src="./Alternativa Produktion_files/jquery_event_handler.js">
+	</script>
+	<script type="text/javascript" src="./Alternativa Produktion_files/functions(1).js">
+	</script>
+	<link rel="stylesheet" type="text/css" href="./Alternativa Produktion_files/template(1).css">
+	<div id="module_container">
+		<form class="avi" action="http://23.251.132.178/trade?order=" method="post">
+			<fieldset class="">
+				<h2>Handelsöversikt</h2>
+				<div style="float:left;"> Sök:
+					<input type="text" name="search" value="">
+					<input class="gen-btn" type="submit" value="Sök"> </div>
+				<div style="margin-left:10px;padding:2px;float:left;">
+					<input class="gen-btn" type="button" value="Välj Kund" onclick="javascript:popUp(&#39;trade/acting_as?designMode=light&#39;,&#39;%%ACTING_AS%%&#39;, &#39;400&#39;, &#39;600&#39;);"> Vald Kund:<b style="font-size:14px;color:#FF0000;"></b>
+					<br>
+					<input class="gen-btn" type="button" value="Släpp vald kund" onclick="redirect(&#39;trade/acting_as?designMode=light&amp;action=flush&#39;);" style="visibility:%%RELEASE_ACTING_AS_BUTTON_VISIBILITY%%"> </div>
+				<div style="clear:left;"></div>
+				<div style="float:left;">
+					<input class="gen-btn" class="optional show_sweden" type="button" value="Skapa rapporter" onclick="popUp(&#39;?module=report&amp;sub=create_reports&amp;designMode=light&#39;,&#39;&#39;,800,700);">
+					<input class="gen-btn" type="button" value="Visa nya ordrar" onclick="popUp(&#39;trade/view_new_orders?designMode=light&amp;action=init&#39;,&#39;&#39;,800,700);">
+					<input class="gen-btn" type="button" value="Exportera till Millistream" onclick="popUp(&#39;trade/millistream_handel?designMode=light&#39;,&#39;&#39;,500,600);">
+					<input class="gen-btn" type="button" value="Exportera index" onclick="popUp(&#39;trade/millistream_index?designMode=light&#39;,&#39;&#39;,500,600);">
+					<table style="border:0px;">
+						<tbody>
+							<tr>
+								<td><img src="./Alternativa Produktion_files/status_0.png">
+								</td>
+								<td>Inplanerad</td>
+								<td><img src="./Alternativa Produktion_files/status_1.png">
+								</td>
+								<td>Förhandel</td>
+								<td><img src="./Alternativa Produktion_files/status_2.png">
+								</td>
+								<td>Handel</td>
+								<td><img src="./Alternativa Produktion_files/status_3.png">
+								</td>
+								<td>Fördelning</td>
+								<td><img src="./Alternativa Produktion_files/status_4.png">
+								</td>
+								<td>Stängd</td>
+								<td><img src="./Alternativa Produktion_files/status_6.png">
+								</td>
+								<td>Handelsstoppad</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</fieldset>
+		</form>
+		<!-- Start output of list generated by the searchClass -->
+		<div class="gali">
+			<table class="table kap table-sm  table-striped kailo" cellspacing="0">
+				<tbody>
+					<tr class="headerRow">
+						<th width="20px" class=" headerCell">&nbsp;</th>
+						<th width="20px" class=" headerCell"><a href="http://23.251.132.178/?module=trade_opportunity&amp;order=2&amp;orderMode=ASC">Status</a>
+						</th>
+						<th width="200px" class=" headerCell"><a href="http://23.251.132.178/?module=trade_opportunity&amp;order=4&amp;orderMode=ASC">Bolag</a>
+						</th>
+						<th width="200px" class=" headerCell"><a href="http://23.251.132.178/?module=trade_opportunity&amp;order=5&amp;orderMode=ASC">Datum, Handelstart</a>
+						</th>
+						<th width="200px" class=" headerCell">Slutdatum, Handel</th>
+						<th width="200px" class=" headerCell">&nbsp;</th>
+					</tr>
+					<tr class="low">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4284"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4284">Alvestaglass Partners Sweden AB</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4284&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4284&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="high">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4271"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4271">Älvsborgsvind AB</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4271&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4271&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="low">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4274"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4274">Box Destilleri AB, B</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4274&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4274&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="high">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4266"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4266">Dala Energi AB, A</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4266&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4266&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="low">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4288"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4288">Escapat Partners Sweden AB (publ)</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4288&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4288&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="high">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4279"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4279">Euroforest AB, B</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4279&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4279&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="low">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4297"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4297">Magnus Testbolag</a>
+						</td>
+						<td class="rowCell">2017-06-28</td>
+						<td class="rowCell">2017-07-02</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4297&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4297&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="high">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4272"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4272">Rabbalshede Kraft AB, B</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4272&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4272&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="low">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4278"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4278">Rasta Group AB</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4278&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4278&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="high">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4296"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4296">SenseAir AB, B</a>
+						</td>
+						<td class="rowCell">2017-06-27</td>
+						<td class="rowCell">2017-06-27</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4296&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4296&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="low">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4285"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4285">Slättens Vind AB</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4285&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4285&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="high">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4295"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4295">Slitevind AB</a>
+						</td>
+						<td class="rowCell">2017-06-21</td>
+						<td class="rowCell">2017-06-21</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4295&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4295&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="low">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4262"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4262">Spiltan, Investment AB</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4262&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4262&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="high">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4286"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4286">Train Alliance Sweden AB</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4286&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4286&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="low">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4287"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4287">XTZ Partners Sweden AB (publ)</a>
+						</td>
+						<td class="rowCell">2017-06-13</td>
+						<td class="rowCell">2017-06-19</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4287&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4287&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="high">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="4298"> <img src="./Alternativa Produktion_files/status_4.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/4298">XTZ Partners Sweden AB (publ)</a>
+						</td>
+						<td class="rowCell">2017-06-29</td>
+						<td class="rowCell">2017-07-03</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_4" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=4298&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=4298&amp;status=4&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="low">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="3300"> <img src="./Alternativa Produktion_files/status_6.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/3300">Active Properties AB, B</a>
+						</td>
+						<td class="rowCell">2015-02-05</td>
+						<td class="rowCell">2015-02-05</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_6" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=3300&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=3300&amp;status=6&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+					<tr class="high">
+						<td class="rowCell"><img src="./Alternativa Produktion_files/trade_public_trade.png">
+						</td>
+						<td class="rowCell">
+							<a class="get_trade_status" id="2602"> <img src="./Alternativa Produktion_files/status_6.png"> </a>
+						</td>
+						<td class="rowCell"><a href="http://23.251.132.178/trade/view_trade/2602">Doxa AB</a>
+						</td>
+						<td class="rowCell">2013-01-15</td>
+						<td class="rowCell">2013-01-21</td>
+						<td class="rowCell">
+							<input type="button" class="kop-btn place_order_button_6" value="Skapa Order" onclick="javascript:popUp(&#39;trade/place_order?designMode=light&amp;trade_opportunity_id=2602&amp;user_id=&#39;,&#39;Skapa Order&#39;,400,500);">
+							<input type="button" class="sal-btn" value="Millistream" title="Exportera till Millistream" onclick="javascript:popUp(&#39;trade/millistream_comp?designMode=light&amp;trade_opportunity_id=2602&amp;status=6&#39;,&#39;Exportera till Millistream&#39;,500,600);"> </td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- Stop Output -->
+		<table class="mklist" style="border: 0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td style="text-align: right">
+						<input type="button" value="Exportera alla till Millistream" onclick="popUp(&#39;trade/millistream_comp_all?designMode=light&#39;,&#39;&#39;,500,600);"> </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!-- End Module -->
+</body>
+
+</html>
