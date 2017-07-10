@@ -356,7 +356,7 @@ nav .menu-text{
 	background: #fff;
 	color: #565655;
 	text-align: center;
-	padding: 61px 60px 30px 60px;
+	padding: 61px 60px 42px 60px;
 }
 .main-box p {
 	padding-bottom: 20px;
@@ -389,7 +389,7 @@ nav .menu-text{
 .main-box-btn {
 	border: solid 4px #1A1919;
 	/* text-align: center; */
-	padding: 10px 15px;
+	padding: 11px 15px;
 	/* width: 190px; */
 	display: inline-block;
 	/* font-weight: bold; */
@@ -569,6 +569,10 @@ nav .menu-text{
 
 	padding-bottom: 77px;
 }
+.abudi {
+	padding-bottom: 26px;
+	padding-top: 5px;
+}
 .abd {
 	padding-top: 82px;
 	padding-bottom: 103px;
@@ -581,7 +585,7 @@ nav .menu-text{
 }
 .bnav{
 	margin-bottom: 0;
-	margin-top: 24px;
+	margin-top: 22px;
 }
 .bnav li a{
 	background: transparent;
