@@ -89,6 +89,7 @@ h6{
 	font-weight: 300;
 	font-size: 14px;
 }
+
 .bodycopy2{
 	font-family: 'apercu';
 	font-weight: 300;
@@ -357,7 +358,7 @@ nav .menu-text{
 	margin-bottom: 18px;
 }
 .fogi-wrapper {
-
+	margin-bottom: 21px;
 }
 .main-img-wrapper  img {
 	width: 100%;
@@ -634,6 +635,12 @@ nav .menu-text{
 	background: #fff;
 	padding: 30px 34px;
 }
+.aau{
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+}
 .press-wrapper a, .form-wrapper a{
 	color: #1D73AC;
 }
@@ -646,7 +653,7 @@ nav .menu-text{
 
 }
 .omar{
-	margin-bottom: 22px;
+	margin-bottom: 29px;
 }
 .contact-submit-btn {
 	background: #F3F3F3;
