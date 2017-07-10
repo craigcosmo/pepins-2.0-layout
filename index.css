@@ -346,6 +346,13 @@ nav .menu-text{
 	margin-top: 0;
 	margin-bottom: 23px;
 }
+.nomb{
+	margin-bottom: 0;
+}
+.basir{
+	padding-bottom: 10px;
+	display: inline-block;
+}
 .main-img-wrapper  img {
 	width: 100%;
 	/* height: 100%; */
