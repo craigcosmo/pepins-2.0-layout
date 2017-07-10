@@ -60,6 +60,11 @@ h6{
 .aci {
 	margin-bottom: 24px;
 }
+.descopy1{
+	font-family: 'apercu';
+	font-weight: 400;
+	font-size: 12px;
+}
 .descopy{
 	font-family: 'apercu';
 	font-weight: 400;
@@ -88,6 +93,12 @@ h6{
 	font-family: 'apercu';
 	font-weight: 300;
 	font-size: 16px;
+}
+.bodycopy4{
+	font-family: 'apercu';
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0;
 }
 .line1 {
 	/* height: 1.3px; */
@@ -331,6 +342,10 @@ nav .menu-text{
 	height: 100%;
 	padding-right: 30px;
 }
+.vline {
+	margin-top: 0;
+	margin-bottom: 23px;
+}
 .main-img-wrapper  img {
 	width: 100%;
 	/* height: 100%; */
@@ -341,7 +356,7 @@ nav .menu-text{
 	background: #fff;
 	color: #565655;
 	text-align: center;
-	padding: 40px 60px 30px 60px;
+	padding: 61px 60px 30px 60px;
 }
 .main-box p {
 	padding-bottom: 20px;
@@ -372,12 +387,12 @@ nav .menu-text{
 }
 
 .main-box-btn {
-	border: solid 5px #1A1919;
-	text-align: center;
+	border: solid 4px #1A1919;
+	/* text-align: center; */
 	padding: 10px 15px;
-	width: 190px;
+	/* width: 190px; */
 	display: inline-block;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 .cdf{
 	color: #6A6A80;
@@ -518,7 +533,7 @@ nav .menu-text{
 	margin-bottom: 32px !important;
 }
 .tiu {
-
+	padding-top: 102px;
 }
 .row-center {
   text-align:center;
@@ -552,7 +567,7 @@ nav .menu-text{
 }
 .info-section {
 
-	padding-bottom: 75px;
+	padding-bottom: 77px;
 }
 .abd {
 	padding-top: 82px;
