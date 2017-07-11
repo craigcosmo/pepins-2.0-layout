@@ -267,6 +267,13 @@ h6{
 	background-position: 15px;
 	/* background-color: red; */
 }
+.mb45{
+	margin-bottom: 45px;
+}
+.ayesha {
+	width: 100px;
+	max-width: 100%;
+}
 .join-btn {
 	background: #F19591;
 	color: #fff;
@@ -342,6 +349,9 @@ nav .menu-text{
 	width: 100%;
 	height: 100%;
 	padding-right: 30px;
+}
+.mb20 {
+	margin-bottom: 20px;
 }
 .vline {
 	margin-top: 0;
