@@ -49,13 +49,61 @@ h6{
 	font-weight: 500;
 	font-size: 16px;
 }
+.ar-wrap {
+	background: #F3F3F3;
+}
+.himage{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.subt {
+	display: block;
+	padding: 10px;
+}
+.trom {
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+}
+.azui {
+	display: flex;
+}
+.azui-a {
+	width: 40px;
+}
+.azui-b{
+	flex: 1;
+	margin-left: 10px;
+}
+.oz-btn {
+	text-transform: uppercase;
+	padding: 5px 10px;
+	width: 30%;
+	text-align: center;
+}
+.oz-grey {
+	background: #F3F3F3;
+
+}
+.oz-blue {
+	background: #4C82B4;
+}
 .vasi {
 	margin-bottom: 20px;
+}
+.ozbox {
+	width: 100%;
+	background: #fff;
+	padding: 25px;
 }
 .headline7 {
 	font-family: 'apercu';
 	font-weight: 500;
 	font-size: 14px;
+}
+.aufbox {
+	height: auto !important;
+	margin-bottom: 24px;
 }
 .aci {
 	margin-bottom: 24px;
@@ -349,6 +397,10 @@ nav .menu-text{
 	width: 100%;
 	height: 100%;
 	padding-right: 30px;
+}
+.kala {
+	max-width: 100%;
+	border-radius: 50%;
 }
 .mb20 {
 	margin-bottom: 20px;
