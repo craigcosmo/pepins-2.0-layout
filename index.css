@@ -584,8 +584,7 @@ nav .menu-text{
 .f-wrap {
     display: flex;
     height: 100%;
-    min-height: 411px;
-    padding-top: 55px;
+    min-height: 350px;
 }
 .user-icon img {
 	border-radius: 50%;
@@ -760,16 +759,24 @@ nav .menu-text{
 	margin-top: 21px;
 	font-size: 12px;
 }
+.banban {
+	color: #868686;
+	margin-bottom: 25px;
+	font-size: 14px;
+}
 .imd-wrapper img {
 	width: 100%;
 	max-width: 150px;
 	display:block;
 	margin:auto;
 }
-
+.orange {
+	font-size: 22px;
+	font-weight: 500;
+	color: #EE7D7E;
+}
 .img-group-wrapper {
-	padding-top: 78px;
-	padding-bottom: 75px;
+
 }
 .info-section {
 
@@ -961,6 +968,9 @@ nav .menu-text{
 	font-weight: 600;
 	z-index: 40;
 	font-family: 'apercu';
+}
+.vansa {
+	background: #DFD9CE;
 }
 .ft-wrap {
 	display: flex;
