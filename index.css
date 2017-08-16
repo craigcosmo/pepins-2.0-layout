@@ -918,6 +918,7 @@ nav .menu-text{
 .shang img {
 	max-width: 100%;
 }
+.normal-text{ text-transform: none; }
 .chartw {
 	background: #fff;
 	padding: 30px 30px;
@@ -974,6 +975,12 @@ nav .menu-text{
 	font-weight: 600;
 	z-index: 40;
 	font-family: 'apercu';
+}
+.pb80{
+	padding-bottom: 80px;
+}
+.sansa {
+	background: #E5DFD4;
 }
 .vansa {
 	background: #DFD9CE;
@@ -1152,7 +1159,7 @@ nav .menu-text{
 	background: #94C7BA;
 }
 .mrr {
-	margin-bottom: 48px;
+	margin-bottom: 80px;
 }
 .red-num {
 	color: #EF887E;
@@ -1668,9 +1675,14 @@ nav .menu-text{
 	transform: translateY(-50%);
 }
 
-
+.incopy1{
+	font-family: 'brew';
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 28px;
+}
 .ai-wrapper {
-	margin-bottom: 88px;
+	margin-bottom: 61px;
 }
 .ai-wrapper img {
 	max-width: 100%;
