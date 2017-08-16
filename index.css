@@ -95,6 +95,12 @@ h6{
 	font-weight: bold;
 	font-size: 28px;
 }
+.menucopy2 {
+	font-family: 'brew';
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 300;
+}
 .menucopy1 {
 	font-family: 'brew';
 	text-transform: uppercase;
@@ -1008,11 +1014,7 @@ nav .menu-text{
 	font-weight: bold;
 	font-size: 18px;
 }
-.f-inner h1{
-	width: 400px;
-	margin-bottom: 30px;
-	max-width: 90%;
-}
+
 .maid {
 	background: #FBE3DE;
 }
@@ -1054,10 +1056,10 @@ nav .menu-text{
 	display: inline-block;
 	font-weight: bold;
 }
-
 .f-inner h1{
 	width: 400px;
 	margin-bottom: 30px;
+	max-width: 90%;
 }
 .mma {
 	margin-bottom: 86px !important;
@@ -1167,6 +1169,17 @@ nav .menu-text{
 	align-items: center;
 	width: 100%;
 	padding-right: 58px;
+	position: relative;
+}
+.sub-mov {
+	position: absolute;
+	top: 100%;
+	z-index: 100;
+	background: #CDC6C0;
+	margin-bottom: 0;
+	width: 100%;
+	padding-left: 48px;
+	display: none;
 }
 
 .mcc {
@@ -1543,20 +1556,16 @@ nav .menu-text{
 
 .mov-nav li {
 	float: left;
+	height: 41px;
 }
 .mov-nav li a{
-	/* color: #7E7E7D; */
+
 	font-size: 14px;
-	border-right: 1px solid #7E7E7D;
-	/* padding-left: 14px; */
-	/* padding-right: 14px; */
+	/* border-right: 1px solid #7E7E7D; */
 	color: #D8D1D1;
-/* 	padding-right: 10px;
-	padding-left: 10px; */
 	display: block;
 	font-weight: 500;
 	padding: 11px 11px;
-	/* margin-left: -4px; */
 }
 .mov-nav li a:hover {
 	background: #CDC6C0;
@@ -1572,6 +1581,37 @@ nav .menu-text{
 }
 .mov-nav li:last-child a{
 	border-right: none;
+}
+.sensi{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.sub-mov span, .mov-nav span{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1px;
+	background: #7E7E7D;
+	height: 12px;
+	margin-bottom:4px ;
+}
+.sub-mov li {
+	float: left;
+	list-style: none;
+	height: 41px;
+}
+.sub-mov li a{
+	color: #2F2E2E;
+	text-decoration: none;
+	padding: 11px;
+	display: inline-block;
+	font-weight: 100;
+	vertical-align: middle;
+}
+.sub-mov li a:hover{
+	color: #000;
+	font-weight: 300;
 }
 .soja {
 	padding-top: 10px;
