@@ -17,6 +17,10 @@
 		 		e.preventDefault()
 		 		$('.opened-menu').hide()
 		 	})
+		 	$('.mov-nav .inve').on('click', function(e){
+		 		e.preventDefault()
+		 		$('.sub-mov').toggle()
+		 	})
 		})
 	</script>
 </head>
@@ -33,37 +37,50 @@
 		</div>
 	</nav>
 	<div class="bou desert">
-		<div class="container cfs">
-			<div class="row">
-				<div class="col-8 nopad">
-					<div class="mcc2">
-						<ul class="mov-nav brew">
-							<li>
-								<a href="" class="active">INVESTERINGAR</a>
-							</li>
-							<li>
-								<a href="">FORUM</a>
-							</li>
-							<li>
-								<a href="">AVISERINGAR</a>
-							</li>
-							<li>
-								<a href="">MIN PROFIL</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-4 nopad df">
-					<div class="mcc2">
-						<div class="olp">
-							<span class="user-nick">Mitte</span>
-							<span class="user-icon"><img src="image/girl.jpeg"></span>
+			<div class="container cfs">
+				<div class="row">
+					<div class="col-8 nopad">
+						<div class="mcc2">
+							<ul class="mov-nav brew">
+								<li>
+									<a href="" class="inve active">INVESTERINGAR</a>
+								</li>
+								<li class="sensi"><span></span></li>
+								<li>
+									<a href="">FORUM</a>
+								</li>
+								<li class="sensi"><span></span></li>
+								<li>
+									<a href="">AVISERINGAR</a>
+								</li>
+								<li class="sensi"><span></span></li>
+								<li>
+									<a href="">MIN PROFIL</a>
+								</li>
+							</ul>
+							
 						</div>
 					</div>
+					<div class="col-4 nopad df">
+						<div class="mcc2">
+							<div class="olp">
+								<span class="user-nick">Mitte</span>
+								<span class="user-icon"><img src="image/girl.jpeg"></span>
+							</div>
+						</div>
+					</div>
+					<ul class="sub-mov">
+						<li><a href="" class="menucopy2">ALLA BOLAG</a></li>
+						<li class="sensi"><span></span></li>
+						<li><a href="" class="menucopy2">KOMMANDE</a></li>
+						<li class="sensi"><span></span></li>
+						<li><a href="" class="menucopy2">PÅGÅENDE</a></li>
+						<li class="sensi"><span></span></li>
+						<li><a href="" class="menucopy2">FULLTECKNADE</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
-	</div>
 	<div class="isabel">
 		<div class="container cfs">
 			<div class="row">
