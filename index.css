@@ -394,6 +394,12 @@ h6{
 	background-size: cover;
 	transform: rotate(45deg);
 }
+.menu-wrapper {
+	position: fixed;
+	top: 120px;
+	width: 100%;
+	z-index: 111;
+}
 .menu-link{
 	font-size: 30px;
 	color: #000;
@@ -575,7 +581,7 @@ nav .menu-text{
 	background: #F3F0EB;
 }
 .bou {
-	margin-top: 120px;
+	margin-top: 161px;
 }
 .cop {
 	text-align: center;
@@ -1178,16 +1184,7 @@ nav .menu-text{
 	padding-right: 58px;
 	position: relative;
 }
-.sub-mov {
-	position: absolute;
-	top: 100%;
-	z-index: 100;
-	background: #CDC6C0;
-	margin-bottom: 0;
-	width: 100%;
-	padding-left: 48px;
-	display: none;
-}
+
 
 .mcc {
 	display: flex;
@@ -1559,11 +1556,12 @@ nav .menu-text{
 	list-style-type: none;
 	margin-bottom: 0;
 	padding-left: 48px;
+	display: flex;
 }
 
 .mov-nav li {
 	float: left;
-	height: 41px;
+	/* height: 41px; */
 }
 .mov-nav li a{
 
@@ -1573,10 +1571,11 @@ nav .menu-text{
 	display: block;
 	font-weight: 500;
 	padding: 11px 11px;
+	text-decoration: none;
 }
+
 .mov-nav li a:hover {
 	background: #CDC6C0;
-	text-decoration: none;
 	color: #000 !important;
 }
 
@@ -1594,6 +1593,17 @@ nav .menu-text{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.sub-mov {
+	position: absolute;
+	/* display: flex; */
+	top: 100%;
+	z-index: 100;
+	background: #CDC6C0;
+	margin-bottom: 0;
+	width: 100%;
+	padding-left: 48px;
+	display: none;
 }
 .sub-mov span, .mov-nav span{
 	display: inline-block;
@@ -1936,7 +1946,7 @@ nav .menu-text{
 
 @media (min-width: 576px) {
 	.bou{
-		margin-top: 120px;
+		margin-top: 161px;
 	}
 	.stay {
 		height: 120px;
@@ -1983,7 +1993,7 @@ nav .menu-text{
 		padding-top: 30px;
 	}
 	.bou{
-		margin-top: 120px;
+		margin-top: 161px;
 	}
 	.stay {
 		height: 100px;
