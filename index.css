@@ -622,10 +622,12 @@ nav .menu-text{
 	font-size: 17px;
 	/* font-weight: bold; */
 	text-align: center;
+	margin-bottom: 8px;
 }
 .bbf {
 	background: #EDE8E3;
 	padding-top: 27px;
+	padding-bottom: 28px;
 }
 .main-box-wrapper {
 	margin: 70px 94px 45px 45px;
@@ -776,6 +778,10 @@ nav .menu-text{
 	margin-bottom: 25px;
 	font-size: 14px;
 }
+.cina {
+	font-weight: 500;
+	font-size: 24px;
+}
 .imd-wrapper img {
 	width: 100%;
 	max-width: 150px;
@@ -786,6 +792,12 @@ nav .menu-text{
 	font-size: 22px;
 	font-weight: 500;
 	color: #EE7D7E;
+}
+.green-title {
+	font-size: 22px;
+	font-weight: 500;
+	color: #1AA699;
+	margin-bottom: 20px;
 }
 .img-group-wrapper {
 
