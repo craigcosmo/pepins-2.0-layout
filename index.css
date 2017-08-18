@@ -96,12 +96,21 @@ h6{
 	border: 4px solid #000;
 	padding: 10px 50px;
 }
-.log-input{
+.reg-input{
 	width: 100%;
 	box-shadow: inset 3px 3px 10px 0px rgba(0,0,0,0.18);
 	border: 0;
 	padding: 11px 15px;
-
+}
+.kiu {
+	margin-top: 40px;
+}
+.log-input {
+	width: 100%;
+	box-shadow: inset 3px 3px 10px 0px rgba(0,0,0,0.18);
+	border: 0;
+	padding: 11px 15px;
+	background: #FBDDD7;
 }
 .reg-btn{
 	border: solid 4px #1A1919;
@@ -695,6 +704,14 @@ nav .menu-text{
 	display: flex;
 	flex-direction: column;
 }
+.soki {
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+.milk-pink{
+	background: #FCE7E2;
+	padding-bottom: 400px;
+}
 .pin {
 	margin-top:auto;
 	/* margin-bottom: 12px; */
@@ -741,7 +758,6 @@ nav .menu-text{
 }
 .maxh {
 	height: 100%;
-
 }
 .stay {
 	position: fixed;
@@ -752,10 +768,6 @@ nav .menu-text{
 	top: 0;
 	min-height: 120px;
 }
-/* .imd {
-	width: 150px;
-	height: 100px;
-} */
 .fi {
 	text-align: center;
 	display: block;
@@ -775,7 +787,6 @@ nav .menu-text{
 .row-center {
   text-align:center;
 }
-
 .col-center {
   display:inline-block;
   float:none;
@@ -783,8 +794,6 @@ nav .menu-text{
 .imd-wrapper {
 	width: 100%;
 	height: 100%;
-	/* display: flex; */
-
 }
 .imd-wrapper p {
 	text-align: center;
@@ -844,7 +853,6 @@ nav .menu-text{
 .bnav .page-link{
 	padding-top: 0;
 	padding-bottom: 0;
-
 }
 .bnav{
 	margin-bottom: 0;
@@ -859,8 +867,17 @@ nav .menu-text{
 .bnav li a.active {
 	color: #1A1919;
 }
-.contact-form {
-
+.il {
+	font-style: italic;
+}
+.b-btn {
+	background: #588BB9;
+	text-align: center;
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 10px;
 }
 .ch {
 	text-align: center;
