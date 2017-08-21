@@ -119,8 +119,13 @@ h6{
 	width: 100%;
 	text-align: center;
 }
-mb61{
+.mb61{
 	margin-bottom:61px;
+}
+.number3 {
+	font-family: 'apercu';
+	font-weight: 500;
+	font-size: 21px;
 }
 .number5 {
 	font-family: 'apercu';
@@ -186,6 +191,7 @@ mb61{
 	font-family: 'apercu';
 	font-weight: 500;
 	font-size: 14px;
+	letter-spacing: 1px;
 }
 .texta-wrapper {
 	position: relative;
@@ -332,6 +338,14 @@ mb61{
 }
 .mgb10{
 	margin-bottom: 10px;
+}
+.papak {
+	margin-bottom: 7px;
+	padding-left: 10px;
+	padding-top: 24px;
+}
+.papak h6 {
+	margin-bottom: 2px;
 }
 .cik{
 	margin-bottom: 7px;
@@ -1509,16 +1523,20 @@ nav .menu-text{
 	position: relative;
 	padding: 20px 13% 20px 13%;
 }
-
+.blank-hide{
+	visibility: hidden;
+}
 .mah {
 	font-size: 16px;
 	color: #000;
 	font-weight: 500;
+	margin-bottom: 5px;
 }
 .tri {
 	color: #636463;
 	display: block;
 	line-height: 25px;
+	margin-left: 20px;
 }
 .avi{
 	margin-bottom: 0;
@@ -1528,7 +1546,7 @@ nav .menu-text{
 	border: 2px solid #000;
 	box-shadow: inset 2px 2px 6px 0px rgba(0,0,0,0.18);
 	padding: 5px 0px;
-	padding-left: 5px;
+	padding-left: 10px;
 	font-size: 20px;
 }
 
@@ -1537,10 +1555,16 @@ nav .menu-text{
 	letter-spacing: 2px;
 	font-size: 21px;
 	font-weight: 400;
-	padding: 6px 32px;
+	/* padding: 6px 32px; */
 	display: inline-block;
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
 	border: 0;
+}
+.kop-btn, .sal-btn {
+	height: 40px;
+	line-height: 40px;
+	width: 159px;
+	text-align: center;
 }
 .gen-btn {
 	background: #6CB4A4;
@@ -1551,9 +1575,13 @@ nav .menu-text{
 }
 .sal-btn {
 	background: #E57F7A;
+	margin-right: 17px;
 }
 .force-b{
 	margin-top: auto;
+}
+.asa {
+	border-collapse: collapse;
 }
 .asa td, .asa th {
 	border: none;
@@ -1620,11 +1648,18 @@ nav .menu-text{
 	color: #636463;
 
 }
+
 .wtbl, .mob-wtbl {
 	background: #fff;
 	height: 100%;
 	padding: 20px;
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
+}
+.wtbl {
+	padding-top: 36px;
+	padding-bottom: 42px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 .wtbl td, .mob-wtbl td{
 	vertical-align: middle;
