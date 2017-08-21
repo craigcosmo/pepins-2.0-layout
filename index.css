@@ -49,6 +49,13 @@ h6{
 	font-weight: 500;
 	font-size: 16px;
 }
+.menu-icon-wrapper {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	padding-left: 58px;
+}
 .ar-wrap {
 	background: #F3F3F3;
 	margin-bottom: 33px;
@@ -565,7 +572,7 @@ nav .menu-btn-wrapper {
 	width: 90px;
 	height: 100%;
 }
-nav .menu-icon {
+/* nav .menu-icon {
 	background: url('image/menu-icon.svg') no-repeat center center;
 	background-size: cover;
 	width: 18px;
@@ -573,6 +580,15 @@ nav .menu-icon {
 	display: inline-block;
 	margin-top: 30px;
 	margin-bottom: 10px;
+} */
+.menu-icon {
+	background: url('image/menu-icon.svg') no-repeat center center;
+	fill: #fff;
+	background-size: cover;
+	width: 18px;
+	height: 16px;
+	display: inline-block;
+	cursor: pointer;
 }
 nav .menu-text{
 	font-size: 13px;
