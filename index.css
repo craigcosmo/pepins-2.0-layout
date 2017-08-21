@@ -119,10 +119,23 @@ h6{
 	width: 100%;
 	text-align: center;
 }
+mb61{
+	margin-bottom:61px;
+}
+.number5 {
+	font-family: 'apercu';
+	font-weight: 300;
+	font-size: 14px;
+}
 .number2 {
 	font-family: 'apercu';
 	font-weight: bold;
 	font-size: 28px;
+}
+.number4 {
+	font-family: 'apercu';
+	font-weight: bold;
+	font-size: 18px;
 }
 .menucopy2 {
 	font-family: 'brew';
@@ -163,6 +176,11 @@ h6{
 	background: #fff;
 	/* padding: 25px; */
 	padding:  33px 33px;
+}
+.headline14 {
+	font-size: 13px;
+	font-family: 'apercu';
+	font-weight: 500;
 }
 .headline7 {
 	font-family: 'apercu';
@@ -298,7 +316,8 @@ h6{
 	border-color: #CCCCCC;
 }
 .bex {
-	margin-bottom: 15px;
+	margin-bottom: 18px;
+	padding-top: 18px;
 	font-size: 17px;
 }
 .link-g a {
@@ -322,6 +341,7 @@ h6{
 .gali {
 	padding: 40px;
 	background: #DDD7D1;
+	
 }
 .v{
 	vertical-align: middle;
@@ -974,7 +994,7 @@ nav .menu-text{
 	max-width: 100%;
 }
 .shang{
-	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
+	/* box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12); */
 }
 .shang img {
 	max-width: 100%;
@@ -1021,6 +1041,9 @@ nav .menu-text{
 }
 .camer {
 	margin-bottom: 20px;
+}
+.not {
+	text-transform: none;
 }
 .round-badge {
 	width: 72px;
@@ -1150,15 +1173,18 @@ nav .menu-text{
 	font-size: 12px;
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
 }
-
+.papa{
+	background: #DDD7D1;
+}
 .blue-per {
 	color: #2461CC;
 	font-weight: 400;
 }
 .kap {
-	margin-bottom: 32px;
+	margin-bottom: 0px;
 	font-size: 14px;
 }
+
 .kap th:first-child{
 	padding-left: 20px;
 }
@@ -1168,13 +1194,17 @@ nav .menu-text{
 .kap th {
 	border: 0;
 	background: #fff;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	/* padding-bottom: 5px; */
+	/* padding-top: 5px; */
+	height: 36px;
+	vertical-align: middle;
 }
 .kap td {
 	border: 0;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	/* padding-bottom: 5px;
+	padding-top: 5px; */
+	height: 36px;
+	vertical-align: middle;
 }
 .kap td:last-child {
 	text-align: right;
@@ -1430,7 +1460,7 @@ nav .menu-text{
 .blueper, .redper{
 	display: inline-block;
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
-	padding-top: 14px;
+	padding-top: 17px;
 }
 .blueper {
 	background: #3B94D1;
@@ -1479,9 +1509,7 @@ nav .menu-text{
 	position: relative;
 	padding: 20px 13% 20px 13%;
 }
-.kmm {
-	font-size: 24px;
-}
+
 .mah {
 	font-size: 16px;
 	color: #000;
@@ -1533,7 +1561,9 @@ nav .menu-text{
 .gal {
 	background: #DDD7D1;
 	height: 100%;
-	padding: 30px 40px;
+	/* padding: 30px 40px; */
+	padding-bottom: 66px;
+	/* padding-top: 66px; */
 }
 .mgb70 {
 	margin-bottom: 73px;
