@@ -520,6 +520,10 @@ h6{
 	height: 100%;
 	/* margin-bottom: 30px; */
 }
+.opi {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
 .sakew img {
 	max-width: 100%;
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);

@@ -244,12 +244,12 @@
 									<td class="jik"></td>
 									<td class="number5">400</td>
 									<td class="number5 text-right">1 100 SEK</td>
-									<td class="opi">
-										<div class="perw text-right">
+									<td>
+										<div class="perw">
 											<div class="blueper" style="width:50px"></div>
 										</div>
 									</td>
-									<td class="opi">
+									<td>
 										<div class="perw">
 											<div class="redper" style="width:120px"></div>
 										</div>
@@ -262,12 +262,12 @@
 									<td class="jik"></td>
 									<td class="number5">400</td>
 									<td class="number5 text-right">1 100 SEK</td>
-									<td class="opi">
-										<div class="perw text-right">
+									<td>
+										<div class="perw">
 											<div class="blueper" style="width:50px"></div>
 										</div>
 									</td>
-									<td class="opi">
+									<td>
 										<div class="perw">
 											<div class="redper" style="width:120px"></div>
 										</div>
