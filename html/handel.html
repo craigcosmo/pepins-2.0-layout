@@ -28,6 +28,11 @@
 			$('.menu-icon').on('click', function(e){
 				$('.opened-menu').show()
 			})
+			let docwidth = $( document ).width()
+			let pagewidth = $('.kali').outerWidth()
+			let cellwidth = (docwidth - pagewidth)/2
+			console.log(cellwidth)
+			$('.jik').css('width', cellwidth)
 		})
 	</script>
 </head>
@@ -226,14 +231,17 @@
 							<div class="cop bex">ORDERDJUP</div>
 							<table class="table kap table-sm table-striped kolo">
 								<tr>
+									<th class="jik"></th>
 									<th class="text-left headline14">Antal</th>
 									<th class="headline14 text-right">Pris</th>
 									<th class="text-right headline14">Kop</th>
 									<th class="headline14" >Salj</th>
 									<th class="headline14 text-right">Pris</th>
 									<th class="headline14">Antal</th>
+									<th class="jik"></th>
 								</tr>
 								<tr>
+									<td class="jik"></td>
 									<td class="number5">400</td>
 									<td class="number5 text-right">1 100 SEK</td>
 									<td>
@@ -248,8 +256,10 @@
 									</td>
 									<td class="number5 text-right">53 SEK</td>
 									<td class="number5">1200</td>
+									<td class="jik"></td>
 								</tr>
 								<tr>
+									<td class="jik"></td>
 									<td class="number5">400</td>
 									<td class="number5 text-right">1 100 SEK</td>
 									<td>
@@ -264,6 +274,7 @@
 									</td>
 									<td class="number5 text-right">53 SEK</td>
 									<td class="number5">1200</td>
+									<td class="jik"></td>
 								</tr>
 							</table>
 						</div>
@@ -278,6 +289,7 @@
 							<div class="cop bex">Historik</div>
 							<table class="table kap table-sm table-striped">
 								<tr>
+									<th class="jik"></th>
 									<th class="headline14">Antal</th>
 									<th class="headline14">UTVECKLING</th>
 									<th class="headline14">HÖGST</th>
@@ -285,8 +297,10 @@
 									<th class="headline14">OMSÄT TNING</th>
 									<th class="headline14">MARKNADSVÄRDE</th>
 									<th class="headline14 text-right">DATUM</th>
+									<th class="jik"></th>
 								</tr>
 								<tr>
+									<td class="jik"></td>
 									<td>1 mån</td>
 									<td>+ 12,7 %</td>
 									<td>60 SEK</td>
@@ -294,8 +308,10 @@
 									<td>543 300 SEK</td>
 									<td>18 240 500 SEK</td>
 									<td class="text-right">2017-05-26</td>
+									<td class="jik"></td>
 								</tr>
 								<tr>
+									<td class="jik"></td>
 									<td>1 mån</td>
 									<td>+ 12,7 %</td>
 									<td>60 SEK</td>
@@ -303,6 +319,7 @@
 									<td>543 300 SEK</td>
 									<td>18 240 500 SEK</td>
 									<td class="text-right">2017-05-26</td>
+									<td class="jik"></td>
 								</tr>
 							</table>
 						</div>

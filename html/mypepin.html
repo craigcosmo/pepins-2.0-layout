@@ -28,6 +28,12 @@
 			$('.menu-icon').on('click', function(e){
 				$('.opened-menu').show()
 			})
+
+			let docwidth = $( document ).width()
+			let pagewidth = $('.kali').outerWidth()
+			let cellwidth = (docwidth - pagewidth)/2
+			console.log(cellwidth)
+			$('.jik').css('width', cellwidth)
 		})
 	</script>
 </head>
@@ -159,180 +165,121 @@
 				</div>
 			</div>
 		</div>
-		<div>
-			<div class="itable">
-				<div class="irow ihead">
-					<div class="mik">
-						<div class="container kali">
-							<div class="row">
-								<div class="col-12">
-									<div class="itable subtable kali">
-										<div class="irow">
-											<div class="icell">Aktier</div>
-											<div class="icell">Antal</div>
-											<div class="icell">GAV-kurs</div>
-											<div class="icell">Senaste avsl</div>
-											<div class="icell">Senaste bet</div>
-											<div class="icell">+/-</div>
-											<div class="icell">Avkastning</div>
-											<div class="icell">Marknadsvärde</div>
-										</div>
-									</div>
-								</div>								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="irow iodd">
-					<div class="mik">
-						<div class="container kali">
-							<div class="row">
-								<div class="col-12">
-									<div class="itable subtable kali">
-										<div class="irow">
-											<div class="icell">Alvestaglass2</div>
-											<div class="icell">300 st</div>
-											<div class="icell">GAV-kurs</div>
-											<div class="icell">Senaste avsl</div>
-											<div class="icell">Senaste bet</div>
-											<div class="icell">+/-</div>
-											<div class="icell">Avkastning</div>
-											<div class="icell">Marknadsvärde</div>
-										</div>
-									</div>
-								</div>								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="irow ieven">
-					<div class="mik">
-						<div class="container kali">
-							<div class="row">
-								<div class="col-12">
-									<div class="itable subtable kali">
-										<div class="irow">
-											<div class="icell">Aktier</div>
-											<div class="icell">Antal</div>
-											<div class="icell">GAV-kurs</div>
-											<div class="icell">Senaste avsl</div>
-											<div class="icell">Senaste bet</div>
-											<div class="icell">+/-</div>
-											<div class="icell">Avkastning</div>
-											<div class="icell">Marknadsvärde</div>
-										</div>
-									</div>
-								</div>								
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</div>
 
-		<div class="container">
-			
-		</div>
 
-		<div class="row">
-			<div class="col-12 nopad">
-				<div class="tbl-wrapper mrr">
-					<h6 class="pei">INN6HAV</h6>
-					<table class="table table-sm  table-striped kap table-sm table-striped kolo">
-						<tr>
-							<th>Aktier</th>
-							<th>Antal</th>
-							<th>GAV-kurs</th>
-							<th>Senaste avsl</th>
-							<th>Senaste bet</th>
-							<th>+/-</th>
-							<th>Avkastning</th>
-							<th>Marknadsvärde</th>
-							<th></th>
-						</tr>
-						<tr>
-							<td><a href="">Alvestaglass</a></td>
-							<td>300 st</td>
-							<td>50 SEK</td>
-							<td>17 05 26</td>
-							<td>50 SEK</td>
-							<td>0%</td>
-							<td>13 500 SEK</td>
-							<td>28 500 SEK</td>
-							<td><span class="blue-h">HANDEL</span></td>
-						</tr>
-						<tr>
-							<td><a href="">Barista</a></td>
-							<td>12 000 st</td>
-							<td>20 SEK</td>
-							<td>17 05 26</td>
-							<td>20 SEK</td>
-							<td><span class="red-num">-5%</span></td>
-							<td>500 SEK</td>
-							<td>125 500 SEK</td>
-							<td><span class="gold-h">HANDEL</span></td>
-						</tr>
 
-					</table>
-					<h6 class="pei">BEVAKNINGAR</h6>
-					<table class="table kap table-sm  table-striped">
-						<tr>
-							<th>Aktier</th>
-							<th>Datum senast bet</th>
-							<th>Senaste bet</th>
-							<th>Högst</th>
-							<th>Lägst</th>
-							<th>Utv 12 mån</th>
-							<th></th>
-							<th></th>
-						</tr>
-						<tr>
-							<td><a href="">NAAVA</a></td>
-							<td>17 05 26</td>
-							<td>50 SEK</td>
-							<td>50 SEK</td>
-							<td>50 SEK</td>
-							<td>+7%</td>
-							<td></td>
-							<td><span class="fol-btn">FÖLJER</span></td>
-						</tr>
-						<tr>
-							<td><a href="">XTZ</a></td>
-							<td>17 05 26</td>
-							<td>20 SEK</td>
-							<td>20 SEK</td>
-							<td>20 SEK</td>
-							<td>-5%</td>
-							<td></td>
-							<td><span class="fol-btn">FÖLJER</span></td>
-						</tr>
-					</table>
-					<h6 class="pei">ORDER</h6>
-					<table class="table kap table-sm  table-striped">
-						<tr>
-							<th>Aktier</th>
-							<th>Order lagd</th>
-							<th>Giltig tom</th>
-							<th>Kurs</th>
-							<th>Antal</th>
-							<th>Totalt</th>
-							<th></th>
-							<th></th>
-						</tr>
-						<tr>
-							<td><a href="">NAAVA</a></td>
-							<td>17 05 26</td>
-							<td>17 05 28</td>
-							<td>95 SEK</td>
-							<td>100 st</td>
-							<td>9 500 SEK</td>
-							<td></td>
-							<td></td>
-						</tr>
-					</table>
-					<div class="ch">
-						<a href="#" class="oll">Till Pepins Market (29 aktier)</a>
+		<div class="container cfs">
+			<div class="row">
+				<div class="col-12 nopad">
+					<div class="tbl-wrapper mrr">
+						<h6 class="pei">INN6HAV</h6>
+						<table class="table table-sm  table-striped kap table-sm table-striped kol ">
+							<tr>
+								<th class="jik"></th>
+								<th>AKTIER</th>
+								<th>ANTAL</th>
+								<th>GAV-KURS</th>
+								<th>SEN.AVSL</th>
+								<th>SEN.BET</th>
+								<th>+/-</th>
+								<th>AVKASTN</th>
+								<th>MARK.VÄRDE</th>
+								<th></th>
+								<th class="jik"></th>
+							</tr>
+							<tr>
+								<td class="jik"></td>
+								<td><a href="">Alvestaglass</a></td>
+								<td>300 st</td>
+								<td>50 SEK</td>
+								<td>17 05 26</td>
+								<td>50 SEK</td>
+								<td>0%</td>
+								<td>13 500 SEK</td>
+								<td>28 500 SEK</td>
+								<td><span class="blue-h">HANDEL</span></td>
+								<td class="jik"></td>
+							</tr>
+							<tr>
+								<td class="jik"></td>
+								<td><a href="">Barista</a></td>
+								<td>12 000 st</td>
+								<td>20 SEK</td>
+								<td>17 05 26</td>
+								<td>20 SEK</td>
+								<td><span class="red-num">-5%</span></td>
+								<td>500 SEK</td>
+								<td>125 500 SEK</td>
+								<td><span class="gold-h">HANDEL</span></td>
+								<td class="jik"></td>
+							</tr>
+
+						</table>
+						<h6 class="pei">BEVAKNINGAR</h6>
+						<table class="table kap table-sm  table-striped ">
+							<tr>
+								<th class="jik"></th>
+								<th>AKTIER</th>
+								<th>SEN.AVSL</th>
+								<th>SEN.BET</th>
+								<th>HÖGST</th>
+								<th>LÄGST</th>
+								<th>UTV.12 MÅN</th>
+								<th></th>
+								<th class="jik"></th>
+							</tr>
+							<tr>
+								<td class="jik"></td>
+								<td><a href="">NAAVA</a></td>
+								<td>17 05 26</td>
+								<td>50 SEK</td>
+								<td>50 SEK</td>
+								<td>50 SEK</td>
+								<td>+7%</td>
+								
+								<td><span class="fol-btn bek-btn">BEVAKAR</span></td>
+								<td class="jik"></td>
+							</tr>
+							<tr>
+								<td class="jik"></td>
+								<td><a href="">XTZ</a></td>
+								<td>17 05 26</td>
+								<td>20 SEK</td>
+								<td>20 SEK</td>
+								<td>20 SEK</td>
+								<td>-5%</td>
+								<td><span class="fol-btn bek-btn">BEVAKAR</span></td>
+								<td class="jik"></td>
+							</tr>
+						</table>
+						<h6 class="pei">ORDER</h6>
+						<table class="table kap table-sm  table-striped mb61">
+							<tr>
+								<th class="jik"></th>
+								<th>Aktier</th>
+								<th>Order lagd</th>
+								<th>Giltig tom</th>
+								<th>Kurs</th>
+								<th>Antal</th>
+								<th>Totalt</th>
+								<th></th>
+								<th class="jik"></th>
+							</tr>
+							<tr>
+								<td class="jik"></td>
+								<td><a href="">NAAVA</a></td>
+								<td>17 05 26</td>
+								<td>17 05 28</td>
+								<td>95 SEK</td>
+								<td>100 st</td>
+								<td>9 500 SEK</td>
+								<td></td>
+								<td class="jik"></td>
+							</tr>
+						</table>
+						<div class="ch">
+							<a href="#" class="oll">Till Pepins Market (29 aktier)</a>
+						</div>
 					</div>
 				</div>
 			</div>
