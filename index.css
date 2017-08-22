@@ -1083,7 +1083,7 @@ nav .menu-text{
 .line-wrapper {
 	display: flex;
 }
-.dacheck, .nocheck {
+.dacheck, .nocheck, .macheck {
 	width: 24px;
 	height: 24px;
 }
@@ -1094,6 +1094,16 @@ nav .menu-text{
 .nocheck {
 	background-color: #94C7BA;
 	box-shadow: inset 2px 2px 6px 0px rgba(0,0,0,0.18);
+}
+.macheck {
+	background-color: #C4BDB6;
+	box-shadow: inset 2px 2px 6px 0px rgba(0,0,0,0.18);
+	margin-right: 10px;
+}
+.jag {
+	font-size: 14px;
+	font-weight: 100;
+	padding-top: 7px;
 }
 .press-wrapper a, .form-wrapper a{
 	color: #1D73AC;
@@ -1865,7 +1875,7 @@ nav .menu-text{
 }
 
 .mov-nav li a:hover {
-	background: #CDC6C0;
+	background: #F3F0EB;
 	color: #000 !important;
 }
 
@@ -1878,11 +1888,49 @@ nav .menu-text{
 .mov-nav li:last-child a{
 	border-right: none;
 }
+
 .sensi{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.hide {
+	display: none;
+}
+.log-btn-group {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	
+}
+.j-btn {
+	/* margin-right: 20px ; */
+
+}
+.log-btn-group a{
+	color: #D8D1D1;
+	text-decoration: none;
+	height: 43px;
+	line-height: 43px;
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.log-btn-group a:hover{
+	background-color: #F3F0EB;
+	color: #0C0C0C;
+}
+a.j-btn.active {
+	background-color: #F3F0EB;
+	color: #0C0C0C;
+}
+a.l-btn:hover {
+	background-color: #FCE7E2;
+}
+a.l-btn.active {
+	background-color: #FCE7E2;
+	color: #0C0C0C;
 }
 .sub-mov {
 	position: absolute;
@@ -1894,6 +1942,18 @@ nav .menu-text{
 	width: 100%;
 	padding-left: 48px;
 	display: none;
+}
+.regi {
+	position: absolute;
+	top: 100%;
+	z-index: 100;
+	background: #CDC6C0;
+	margin-bottom: 0;
+	width: 100%;
+	display: none;
+}
+.miu {
+	padding-top: 40px;
 }
 .sub-mov span, .mov-nav span{
 	display: inline-block;
