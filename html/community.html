@@ -9,14 +9,25 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script>
 		$(function(){
-		 	$('.menu-btn-wrapper').on('click', function(e){
-		 		e.preventDefault()
-		 		$('.opened-menu').show()
-		 	})
-		 	$('.close-menu').on('click',function(e){
-		 		e.preventDefault()
-		 		$('.opened-menu').hide()
-		 	})
+			$('.menu-btn-wrapper').on('click', function(e){
+				e.preventDefault()
+				$('.opened-menu').show()
+			})
+			$('.close-menu').on('click',function(e){
+				e.preventDefault()
+				$('.opened-menu').hide()
+			})
+			$('.mov-nav a.inve').on('click', function(e){
+				e.preventDefault()
+				$('.sub-mov').toggle()
+			})
+			$('.mov-nav a.min').on('click', function(e){
+				e.preventDefault()
+				$('.min-menu').toggle()
+			})
+			$('.menu-icon').on('click', function(e){
+				$('.opened-menu').show()
+			})
 		})
 	</script>
 </head>
@@ -25,161 +36,278 @@
 	<nav class="stay">
 		<div class="container cfs">
 			<div class="row">
-				<div class="col-sm-6 col-6 col-md-4 df">
-					<div class="logo-wrapper df">
-						<a href="" class="logo"></a>
-					</div>
-				</div>
-				<div class="hidden-sm-down col-md-4 df">
-					<div class="mw">
-						<div class="pin">
-							<h6 class="tagline">Together we make fine ideas sing.</h6>
-							<ul class="mini-nav">
-								<li>
-									<a href="" class="active">ALLA BOLAG</a>
-								</li>
-								<li>
-									<a href="">CROWD SITE</a>
-								</li>
-								<li>
-									<a href="">PEPINS MARKET</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-6 col-md-4">
-					<div class="menu-group">
-						<div class="menu-inner">
-							<div class="left">
-								<a href="" class="join-btn monobold">
-									<span>join pepins!</span>
-								</a>
-							</div>
-							<div class="right">
-								<a href="" class="login-btn monobold">
-									<span>LOG IN</span>
-								</a>
-								<div class="menu-btn-wrapper">
-									<a href="" class="menu-btn">
-										<span class="menu-icon"></span>
-										<span class="menu-text">menu</span>
-									</a>
-								</div>
-							</div>
-								
-						</div>
-					</div>
+				<div class="col-lg-12 df text-center lo-center pr">
+					<a href="" class="logo2"></a>
+					<h6 class="tagline">Together we make fine ideas sing.</h6>
 				</div>
 			</div>
 		</div>
 	</nav>
-	<div class="bou isabel">
-		<div class="container cfs camelia">
-			<div class="row hidden-sm-down ">
-				<div class="col-12 nopad">
-					<div class="mcc">
-						<ul class="mov-nav brew">
+	<div class="menu-wrapper">
+		<div class="container cfs">
+			<div class="row">
+				<div class="col-8 nopad">
+					<div class="mcc2">
+						<ul class="mov-nav brew hidden-md-down">
 							<li>
-							<a href="" class="active">MIN DEPA</a>
+								<a href="" class="inve active">INVESTERINGAR</a>
 							</li>
+							<li class="sensi"><span></span></li>
 							<li>
-								<a href="">EMISSIONER</a>
+								<a href="">FORUM</a>
 							</li>
+							<li class="sensi"><span></span></li>
 							<li>
-								<a href="">PEPINS COMMUNITY</a>
+								<a href="">AVISERINGAR</a>
 							</li>
+							<li class="sensi"><span></span></li>
 							<li>
-								<a href="">MARKNAD</a>
-							</li>
-							<li>
-								<a href="">PEPINS COMMUNITY</a>
+								<a href="" class="min">MIN PROFIL</a>
 							</li>
 						</ul>
+						<div class="menu-icon-wrapper hidden-lg-up">
+							<span class="menu-icon "></span>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row hidden-md-up">
-				<div class="col-8 nopad soja">
-					<div class="brew akama">
-						<a href="" class="active">PEPINS MARKET</a>
-						<a href="">/</a>
-						<a href="">HANDEL</a>
+				<div class="col-4 nopad df">
+					<div class="mcc2">
+						<div class="olp">
+							<span class="user-nick">Mitte</span>
+							<span class="user-icon"><img src="../image/girl.jpeg"></span>
+						</div>
 					</div>
 				</div>
-				<div class="col-4 nopad soja">
-					<div class="mob-m">
-						<a href="" class="menu-btn"></a>
-					</div>
-
-
-					<!-- <div class="mob-burger"></div> -->
-				</div>
+				<ul class="sub-mov inve-menu">
+					<li><a href="" class="menucopy2">ALLA BOLAG</a></li>
+					<li class="sensi"><span></span></li>
+					<li><a href="" class="menucopy2">KOMMANDE</a></li>
+					<li class="sensi"><span></span></li>
+					<li><a href="" class="menucopy2">PÅGÅENDE</a></li>
+					<li class="sensi"><span></span></li>
+					<li><a href="" class="menucopy2">FULLTECKNADE</a></li>
+				</ul>
+				<ul class="sub-mov min-menu">
+					<li><a href="" class="menucopy2">SÖKA KAPITAL</a></li>
+					<li class="sensi"><span></span></li>
+					<li><a href="" class="menucopy2">KALENDARIUM</a></li>
+					<li class="sensi"><span></span></li>
+					<li><a href="" class="menucopy2">OM OSS</a></li>
+					<li class="sensi"><span></span></li>
+					<li><a href="" class="menucopy2">PRESS</a></li>
+					<li class="sensi"><span></span></li>
+					<li><a href="" class="menucopy2">PEPINS FÖRKLARAR</a></li>
+					<li class="sensi"><span></span></li>
+					<li><a href="" class="menucopy2">KONTAKT</a></li>
+				</ul>
 			</div>
 		</div>
+	</div>
+	<div class="bou desert">
+		
 	</div>
 	<div class="desert">
 		<div class="container kali tyi">
 			<div class="row">
-				<div class="col-lg-8">
-					<div class="row mb20">
-						<div class="ozbox">
-							<h2 class="text-center">pepins community</h2>
-							<hr class="line1">
-							<div class="trom">
-								<div class="oz-btn oz-grey">Valj bloag</div>
-								<div class="oz-btn oz-grey">Valj information</div>
-								<div class="oz-btn oz-blue">nytt inlagg</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="ozbox">
-							<div class="azui">
-								<div class="azui-a">
-									<img src="../image/ava.png" class="kala">
-								</div>
-								<div class="azui-b">
-									<div><a href="">mitte blomkvist</a> | <span>Urban Gree</span></div>
-									<div>2017-07-04</div>
-								</div>
-							</div>
-							<p>Hur haftig ar inte detta hus! Nar paborjas handeln tro #urbangreen</p>
-							<div class="ar-wrap">
-								<div>
-									<img src="../image/house.jpg" class="himage">
-									<span class="subt">succe for greentech - polaget Urbangreen la pepins - top in 20,1 miljoiner kr och.</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="oz-box">
-							
-						</div>
-					</div>
+				<div class="col-12">
+					<h2 class="text-center camer">DELÄGARFORUM</h2>
+					<hr class="line1">
 				</div>
-				<div class="col-lg-4">
-					<div class="green-box aufbox">
+			</div>
+			<div class="row ">
+				<div class="col-12 col-sm-12 col-md-4 mb61 elf" style="padding-left:10px">
+					
+
+					<div class="green-box">
 						<div class="green-box-img-wrapper">
-							<img class="im-p" src="../image/person.png">
+							<img class="im-m" src="../image/money.png">
 							<p>TOTALT INVESTERAT BELOPP</p>
 							<span>312 458 136 SEK</span>
 						</div>
 					</div>
-					<div class="green-box aufbox">
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 mb61 elf">
+					<div class="green-box">
 						<div class="green-box-img-wrapper">
-							<img class="im-m" src="../image/money.png">
+							<img class="im-p" src="../image/person.png">
 							<p>ANTAL MEDLEMMAR</p>
 							<span>14 596 ST</span>
 						</div>
 					</div>
-					<div class="green-box aufbox">
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 mb61 elf" style="padding-right:10px">
+					<div class="green-box">
 						<div class="green-box-img-wrapper">
 							<img class="im-g" src="../image/globe.png">
 							<p>GEOGRAFISK SPRIDNING</p>
 							<span>54 LÄNDER</span>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="desert">
+		<div class="container kali">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="row mb61">
+						<div class="ozbox">
+							<h2 class="text-center">pepins community</h2>
+							<hr class="line1">
+							<div class="trom">
+								<div class="oz-btn oz-grey" style="margin-right:20px">Valj bloag</div>
+								<div class="oz-btn oz-grey">Valj information</div>
+							</div>
+						</div>
+					</div>
+					<div class="nytt-wrapper mb61">
+						<div>NYTT INLÄGG</div>
+					</div>
+					<div class="">
+						<div class="ozbox mb24">
+							<div class="azui">
+								<div class="azui-a">
+									<img src="../image/ava.png" class="kala">
+								</div>
+								<div class="azui-b">
+									<div class="bodycopy1"><a href="">mitte blomkvist</a> | <span>Urban Gree</span></div>
+									<div class="bodycopy1">2017-07-04</div>
+								</div>
+							</div>
+							<p class="mb24 bodycopy1">Hur haftig ar inte detta hus! Nar paborjas handeln tro #urbangreen</p>
+							<div class="ar-wrap">
+								<div>
+									<img src="../image/house.jpg" class="himage">
+									<span class="subt descopy1">succe for greentech - polaget Urbangreen la pepins - top in 20,1 miljoiner kr och.</span>
+								</div>
+							</div>
+							<hr class="line2 lul">
+							<div class="row">
+								<div class="col-9">
+									<div class="link-g">
+										<a class="descopy1" href="">Gilla (<span>5</span>)</a>
+										<a class="descopy1" href="">Kommentarer (<span>3</span>)</a>
+										<a class="descopy1" href="">Dela (<span>2</span>)</a>
+									</div>
+								</div>
+								<div class="col-3">
+									<div class="df max-height">
+										<div class="arrow-wrapper">
+											<div class="com-arrow arrow-up"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="ozbox mb24">
+							<div class="azui">
+								<div class="azui-a">
+									<img src="../image/ava.png" class="kala">
+								</div>
+								<div class="azui-b">
+									<div class="bodycopy1"><a href="">mitte blomkvist</a> | <span>Urban Gree</span></div>
+									<div class="bodycopy1">2017-07-04</div>
+								</div>
+							</div>
+							<p class="mb24 bodycopy1">Hur haftig ar inte detta hus! Nar paborjas handeln tro #urbangreen</p>
+							<div class="ar-wrap">
+								<div>
+									<iframe width="100%" height="315" src="https://www.youtube.com/embed/MhsM-OO_MlY" frameborder="0" allowfullscreen></iframe>
+									<span class="subt descopy1">succe for greentech - polaget Urbangreen la pepins - top in 20,1 miljoiner kr och.</span>
+								</div>
+							</div>
+							<hr class="line2 lul">
+							<div class="row">
+								<div class="col-9">
+									<div class="link-g">
+										<a class="descopy1" href="">Gilla (<span>5</span>)</a>
+										<a class="descopy1" href="">Kommentarer (<span>3</span>)</a>
+										<a class="descopy1" href="">Dela (<span>2</span>)</a>
+									</div>
+								</div>
+								<div class="col-3">
+									<div class="df max-height">
+										<div class="arrow-wrapper">
+											<div class="com-arrow arrow-up"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="press-wrapper maid pan mb24">
+						<div>
+							<h3 class="text-center">NYHETER</h3>
+							<hr class="line2 aci">
+							<a href="" class="bodycopy2">Årets Gasellbolag andra året i rad</a>
+							<span class="press-date">2017-03-30</span>
+							<p class="bodycopy3 vanl">Lorem ipsum dolor es ensiono Holding har beslu- tat att genomföra en riktad nyemission till Pensiono Partners Sweden AB (publ) av stamaktier om.</p>
+							<a href="" class="bodycopy1 las-link">Läs mer</a>
+						</div>
+						<div>
+							<hr class="line2 aci">
+							<a href="" class="bodycopy2">Nya tester visar positivt resultat</a>
+							<span class="press-date">2017-03-30</span>
+							<p class="bodycopy3 vanl">Lorem ipsum dolor es ensiono Holding har beslsutat att genomföra en riktad nyemission till Pensiono Part- ners Sweden AB (publ) av stamaktier om</p>
+							<a href="" class="bodycopy1 las-link">Läs mer</a>
+						</div>
+						<div>
+							<hr class="line2 aci">
+							<a href="" class="bodycopy2">Årets Gasellbolag andra året i rad</a>
+							<span class="press-date">2017-03-30</span>
+							<p class="bodycopy3 vanl">Lorem ipsum dolor es ensiono Holding har beslu- tat att genomföra en riktad nyemission till Pensiono Partners Sweden AB (publ) av stamaktier om.</p>
+							<a href="" class="bodycopy1 las-link">Läs mer</a>
+						</div>
+						<div>
+							<hr class="line2 aci">
+							<a href="" class="bodycopy2">Årets Gasellbolag andra året i rad</a>
+							<span class="press-date">2017-03-30</span>
+							<p class="bodycopy3 vanl">Lorem ipsum dolor es ensiono Holding har beslu- tat att genomföra en riktad nyemission till Pensiono Partners Sweden AB (publ) av stamaktier om.</p>
+							<a href="" class="bodycopy1 las-link">Läs mer</a>
+						</div>
+						
+						<nav aria-label="Page navigation example">
+							<ul class="bnav pagination">
+								<li class="page-item">
+									<a class="page-link" href="#" aria-label="Previous">
+										<span aria-hidden="true">&laquo;</span>
+										<span class="sr-only">Previous</span>
+									</a>
+								</li>
+								<li class="page-item"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#" aria-label="Next">
+										<span aria-hidden="true">&raquo;</span>
+										<span class="sr-only">Next</span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="pep-box ch">
+						<span class="pept brew fourh">Pepday 2017</span>
+						<h1 class="fgo">21/9</h1>
+						<p class="ara">Se morgondages stjärnor. Missa inte när våra kommande bolag ställs mot väggen i en svettig utfrågning av vår skarpa panel.</p>
+						<ul class="o-list headline7">
+							<li>NAAVA</li>
+							<li>BANGERHEAD</li>
+							<li>SUPERFRUIT</li>
+							<li>MY DENTIST</li>
+							<li>DYNAMIC</li>
+							<li>CODE</li>
+							<li>PENSIONO</li>
+						</ul>
+						<div class="ch">
+							<div class="black-btn vasi">JAG ANMÄLER MIG</div>
+						</div>
+						<span class="tlp">TID & PLATS</span>
+						<i class="bodycopy1">23 maj 2017, 12.00 - 19.00 Spårvagnshallarna, rum Spårvagnen</i>
 					</div>
 				</div>
 			</div>

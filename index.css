@@ -72,7 +72,7 @@ h6{
 .trom {
 	display: flex;
 	/* flex-wrap: wrap; */
-	justify-content: space-between;
+
 }
 .azui {
 	display: flex;
@@ -169,13 +169,30 @@ h6{
 }
 .oz-btn {
 	text-transform: uppercase;
-	padding: 5px 10px;
+	padding: 7px 10px;
 	width: 30%;
 	text-align: center;
+	flex: 1;
+
+}
+.nytt-wrapper {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nytt-wrapper div{
+	background-color: #fff;
+	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
+	width: 80%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 .oz-grey {
 	background: #F3F3F3;
-
+	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
+	color: #6D6D6D;
 }
 .oz-blue {
 	background: #4C82B4;
