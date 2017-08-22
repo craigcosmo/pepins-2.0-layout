@@ -126,6 +126,12 @@ h6{
 	width: 100%;
 	text-align: center;
 }
+.din {
+	background: #C4DBD2;
+}
+.smp {
+	font-size: 11px;
+}
 .mb61{
 	margin-bottom:61px !important;
 }
@@ -229,6 +235,13 @@ h6{
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
 	color: #6D6D6D;
 }
+.oz-white{
+	background: #fff;
+	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
+	color: #6D6D6D;
+	width: 100%;
+	margin-bottom: 30px;
+}
 .oz-blue {
 	background: #4C82B4;
 }
@@ -314,6 +327,28 @@ h6{
 .for-btn-wrapper{
 	text-align: right;
 	margin-top: 24px;
+}
+.kobox {
+	padding-bottom: 50px !important;
+}
+.papai-btn-wrapper {
+	display: flex;
+}
+.upbild {
+	flex: 1;
+	background-color: #CABDBB;
+	padding: 10px 50px;
+	text-align: center;
+	margin-right: 25px;
+	color: #000;
+}
+.avb{
+	color: #67A6D0;
+	font-size: 14px;
+}
+.senlo {
+	flex: 1;
+	text-align: center;
 }
 .butcopy1 {
 	font-family: 'apercu mono';
@@ -1014,10 +1049,44 @@ nav .menu-text{
 	padding-right: 50px;
 	padding-top: 50px;
 }
+.checkmark-wrapper {
+	margin-top: 4px;
+}
+.sar{
+	margin-left: 10px;
+	font-weight: 100;
+	font-size: 14px;
+}
+.mick {
+	font-size: 14px;
+	margin-left: 10px;
+	font-weight: 500;
+}
+.line-wrapper {
+	display: flex;
+}
+.dacheck, .nocheck {
+	width: 24px;
+	height: 24px;
+}
+.dacheck {
+	background-color: #179E8B;
+	box-shadow: inset 2px 2px 6px 0px rgba(0,0,0,0.18);
+}
+.nocheck {
+	background-color: #94C7BA;
+	box-shadow: inset 2px 2px 6px 0px rgba(0,0,0,0.18);
+}
 .press-wrapper a, .form-wrapper a{
 	color: #1D73AC;
 }
 .press-wrapper {
+	padding: 30px 40px;
+}
+.din-wrapper a {
+	color: #1D73AC;
+}
+.din-wrapper {
 	padding: 30px 40px;
 }
 .foot {
