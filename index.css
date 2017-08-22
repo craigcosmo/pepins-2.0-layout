@@ -708,13 +708,17 @@ nav .menu-text{
 	margin: 70px 94px 45px 45px;
 	box-shadow: 7px 7px 10px 0px rgba(0,0,0,0.18);
 }
+.col-lg-45 {
+	width: 294px;
+}
 .boimg {
 	width: 100%;
 	height: 100%;
 	text-align: center;
 }
 .boimg img {
-	max-width: 100%;
+	/* max-width: 100%; */
+	width: 100%;
 	max-height: 100%;
 }
 .for-date {
@@ -1564,8 +1568,11 @@ nav .menu-text{
 	padding: 5px 0px;
 	padding-left: 10px;
 	font-size: 20px;
+	max-width: 172px;
 }
-
+.mb90 {
+	margin-bottom: 90px;
+}
 .kop-btn, .sal-btn, .gen-btn {
 	color: #fff;
 	letter-spacing: 2px;
@@ -1587,7 +1594,6 @@ nav .menu-text{
 }
 .kop-btn {
 	background: #4C83B4;
-	margin-right: 7px;
 }
 .sal-btn {
 	background: #E57F7A;
