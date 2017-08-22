@@ -189,6 +189,37 @@ h6{
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
+.subtable {
+
+}
+.ihead{
+	background-color: #fff;
+}
+.iodd{
+	background-color: #DDD7D1;
+}
+.ieven {
+	background: #EEE9DF;
+}
+.itable {
+	display: table;
+	width: 100%;
+}
+.irow{
+	display: table-row;
+}
+.icell{
+	display: table-cell;
+}
+.ven {
+	font-size: 18px !important;
+}
+.thu{
+	margin-top: 10px;
+}
+.pernum {
+	color: #3587C0;
+}
 .oz-grey {
 	background: #F3F3F3;
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
@@ -1329,7 +1360,7 @@ nav .menu-text{
 	text-align: center;
 }
 .oll {
-	font-size: 25px;
+	/* font-size: 25px; */
 }
 .fol-btn {
 	background: #6CB5A5;
@@ -1521,7 +1552,7 @@ nav .menu-text{
 }
 .tbl-wrapper{
 	background: #DDD7D1;
-	padding: 35px 44px;
+	/* padding: 35px 44px; */
 	/* margin-bottom: 80px; */
 }
 .kop, .sal {
@@ -1707,6 +1738,12 @@ nav .menu-text{
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 	vertical-align: bottom !important;
+}
+.mik {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 100%;
 }
 .mak {
 	padding-top: 0px !important;
