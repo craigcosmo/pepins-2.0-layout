@@ -25,6 +25,9 @@
 				e.preventDefault()
 				$('.min-menu').toggle()
 			})
+			$('.menu-icon').on('click', function(e){
+				$('.opened-menu').show()
+			})
 		})
 	</script>
 </head>
@@ -45,7 +48,7 @@
 			<div class="row">
 				<div class="col-8 nopad">
 					<div class="mcc2">
-						<ul class="mov-nav brew">
+						<ul class="mov-nav brew hidden-md-down">
 							<li>
 								<a href="" class="inve active">INVESTERINGAR</a>
 							</li>
@@ -62,7 +65,9 @@
 								<a href="" class="min">MIN PROFIL</a>
 							</li>
 						</ul>
-
+						<div class="menu-icon-wrapper hidden-lg-up">
+							<span class="menu-icon "></span>
+						</div>
 					</div>
 				</div>
 				<div class="col-4 nopad df">
