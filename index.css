@@ -449,7 +449,9 @@ h6{
 .gali {
 	padding: 40px;
 	background: #DDD7D1;
-	
+}
+.gax {
+	padding-top: 20px;
 }
 .v{
 	vertical-align: middle;
@@ -629,6 +631,18 @@ h6{
 	width: 60px;
 	text-align: center;
 	/* height: 10px; */
+}
+.blue-text{
+	color: #1C75AB;
+}
+.red-text{
+	color: #EF887E;
+}
+.nai {
+
+}
+.nai td:last-child, .nai th:last-child{
+	padding-right: 20px !important;
 }
 .login-btn {
 	background: #F7C0BA;
