@@ -1057,6 +1057,18 @@ nav .menu-text{
 .contact-form .name-wrapper {
 	margin-bottom: 24px;
 }
+.for-text::-webkit-input-placeholder {
+	font-family: 'apercu mono';
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.detail::-webkit-input-placeholder {
+	font-family: 'apercu mono';
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
 .contact-form .detail-wrapper {
 	margin-bottom: 24px;
 }
@@ -1473,6 +1485,13 @@ nav .menu-text{
 }
 .box {
 
+}
+.n-box{
+	background-color: #fff;
+	border:  1px solid #CCCCCC;
+}
+.box-img-wrapper img {
+	width: 100%;
 }
 .bek-btn {
 	background: #94C7BA;
