@@ -1363,7 +1363,16 @@ nav .menu-text{
 .mma {
 	margin-bottom: 86px !important;
 }
-
+.n-box  {
+	padding: 20px;
+	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
+}
+.n-box p {
+	margin: 0;
+}
+.nbl {
+	margin-right: 20px;
+}
 .green-box {
 	text-align: center;
 	background: #D0E4D1;
