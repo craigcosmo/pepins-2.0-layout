@@ -1029,6 +1029,9 @@ nav .menu-text{
 .il {
 	font-style: italic;
 }
+.vail {
+	flex: 1;
+}
 .b-btn {
 	background: #588BB9;
 	text-align: center;
@@ -1037,6 +1040,16 @@ nav .menu-text{
 	color: #fff;
 	text-transform: uppercase;
 	padding: 10px 10px;
+}
+.bank-btn {
+	background: #588BB9;
+	text-align: center;
+	font-weight: 500;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 10px;
+	width: 100%;
 }
 .ch {
 	text-align: center;
@@ -1355,6 +1368,38 @@ nav .menu-text{
 	padding: 5px 16px;
 	font-size: 12px;
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
+}
+.steps-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bold {
+	font-weight: 500;
+}
+.mj {
+	display: inline-block;
+	width: 200px;
+}
+.sonai {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #2F2F2F;
+	font-weight: 100;
+	font-style: italic;
+	font-family: 'brew';
+	font-size: 17px;
+}
+.sonai .active {
+	font-weight: 300;
+}
+.fdash{
+	display: inline-block;
+	height: 1px;
+	width: 40px;
+	background-color: #2F2F2F;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 .papa{
 	background: #DDD7D1;
@@ -1714,6 +1759,14 @@ nav .menu-text{
 	margin-bottom: 0;
 	background: #EEE9DF;
 }
+.bindu {
+	border: 2px solid #000;
+	box-shadow: inset 2px 2px 6px 0px rgba(0,0,0,0.18);
+	padding: 5px 0px;
+	padding-left: 10px;
+	font-size: 20px;
+	width: 90%;
+}
 .cih {
 	border: 2px solid #000;
 	box-shadow: inset 2px 2px 6px 0px rgba(0,0,0,0.18);
@@ -1784,9 +1837,7 @@ nav .menu-text{
 .kla {
 	max-width: 135px;
 }
-.soli {
-	width: 90%;
-}
+
 .black {
 	color: #000;
 }
@@ -2102,6 +2153,9 @@ a.l-btn.active {
 .malun {
 
 }
+.maxw {
+	width: 100%;
+}
 .m40 {
 	margin-bottom: 40px;
 }
@@ -2110,7 +2164,16 @@ a.l-btn.active {
 	padding-right: 5px;
 	padding-left: 5px;
 }
-
+.voil {
+	width: 190px;
+	margin-right: 20;
+}
+.gyt {
+	width: 100%;
+}
+.soke{
+	padding-left: 30px;
+}
 .green-box img {
 	max-width: 100%;
 }
@@ -2151,6 +2214,9 @@ a.l-btn.active {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.flex1 {
+	flex: 1;
 }
 .ogv h1 {
 	color: #fff;
