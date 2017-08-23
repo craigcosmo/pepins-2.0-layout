@@ -51,7 +51,7 @@ h6{
 }
 .menu-icon-wrapper {
 	width: 100%;
-	height: 40px;
+	height: 43px;
 	display: flex;
 	align-items: center;
 	padding-left: 58px;
@@ -1995,7 +1995,7 @@ a.l-btn.active {
 	display: none;
 }
 .regi {
-	position: absolute;
+	/* position: absolute; */
 	top: 100%;
 	z-index: 100;
 	background: #CDC6C0;
@@ -2170,6 +2170,9 @@ a.l-btn.active {
 }
 .gyt {
 	width: 100%;
+}
+.mass{
+	z-index: 999;
 }
 .soke{
 	padding-left: 30px;
