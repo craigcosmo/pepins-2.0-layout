@@ -556,6 +556,7 @@ h6{
 .opi {
 	padding-right: 0 !important;
 	padding-left: 0 !important;
+
 }
 .sakew img {
 	max-width: 100%;
@@ -1710,6 +1711,19 @@ nav .menu-text{
 }
 .perw {
 	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.sewer{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: end;
+	
+	justify-content: flex-end;
 }
 .kolo {
 	margin-bottom: 0;
