@@ -78,6 +78,12 @@ h6{
 	display: flex;
 	margin-bottom: 26px;
 }
+.ler {
+	width: 38px;
+}
+.ler img {
+	border: solid 1px #CABEBC;
+}
 .azui-a {
 	width: 40px;
 }
@@ -87,6 +93,14 @@ h6{
 .azui-b{
 	flex: 1;
 	margin-left: 10px;
+}
+.ucs {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.vast {
+	margin-right: 20px;
+	padding-top: 14px;
 }
 .bcc{
 	font-size: 13px;
@@ -292,6 +306,20 @@ h6{
 	min-height: 96px;
 	padding-left: 55px;
 }
+.r-text{
+	box-shadow: inset 3px 3px 10px 0px rgba(0,0,0,0.18);
+	border: 0;
+	width: 100%;
+	padding-top: 10px;
+	min-height: 36px;
+	padding-left: 15px;
+}
+.r-text::-webkit-input-placeholder{
+	font-family: 'apercu mono';
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
 .arrow-wrapper {
 	margin-left: auto;
 }
@@ -322,6 +350,9 @@ h6{
 	letter-spacing: 1px;
 }
 .for-btn {
+	display: inline-block;
+}
+.rep-btn {
 	display: inline-block;
 }
 .for-btn-wrapper{
