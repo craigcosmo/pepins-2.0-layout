@@ -53,10 +53,25 @@ h6{
 	font-weight: 500;
 	font-size: 16px;
 }
+.oma{
+	color: #000;
+	font-weight: 500;
+	text-decoration: underline;
+}
 .col-lg-294 {
 	width: 324px;
 }
 .col-lg-auto{
+}
+.disin{
+	border-color: #A4A4A4 !important;
+}
+.distext{
+	color: #999999 !important;
+}
+.disbtn {
+	background-color: #B3B2B3 !important;
+	color: #fff !important;
 }
 @media (min-width: 992px){
 	.col-lg-294 {
