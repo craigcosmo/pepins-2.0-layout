@@ -53,6 +53,21 @@ h6{
 	font-weight: 500;
 	font-size: 16px;
 }
+.col-lg-294 {
+	width: 324px;
+	flex: 1;
+}
+.col-lg-auto{
+	flex: 1;
+}
+@media (min-width: 992px){
+	.col-lg-294 {
+		max-width: 324px;
+	}
+	.col-lg-auto{
+		flex: 1;
+	}
+}
 .menu-icon-wrapper {
 	width: 100%;
 	height: 43px;
@@ -271,6 +286,11 @@ h6{
 	background: #fff;
 	/* padding: 25px; */
 	padding:  33px 33px;
+}
+.headline13 {
+	font-family: 'apercu';
+	font-weight: 500;
+	font-size: 16px;
 }
 .headline14 {
 	font-size: 13px;
@@ -609,9 +629,9 @@ h6{
 	font-weight: bold;
 }
 .sela {
-    display: inline-block;
-    margin-top: 60px;
-    margin-bottom: 40px;
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
 .logo-wrapper {
 	flex: 1;
@@ -810,9 +830,9 @@ nav .menu-text{
 	margin-right: 10px;
 }
 .f-wrap {
-    display: flex;
-    height: 100%;
-    min-height: 350px;
+	display: flex;
+	height: 100%;
+	min-height: 350px;
 }
 .user-icon img {
 	border-radius: 50%;
@@ -860,7 +880,7 @@ nav .menu-text{
 .boimg img {
 	/* max-width: 100%; */
 	width: 100%;
-	max-height: 100%;
+	height: 284px;
 }
 .for-date {
 	display: block;
@@ -1859,10 +1879,6 @@ nav .menu-text{
 }
 .kop-btn, .sal-btn, .gen-btn {
 	color: #fff;
-	letter-spacing: 2px;
-	font-size: 21px;
-	font-weight: 400;
-	/* padding: 6px 32px; */
 	display: inline-block;
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
 	border: 0;
@@ -1903,16 +1919,14 @@ nav .menu-text{
 	margin-bottom: 73px;
 }
 .kpp {
-	margin-bottom: 30px;
-	margin-top: 30px;
+	margin-bottom: 24px;
+	margin-top: 24px;
 	font-weight: 500;
 }
 .kpp span {
 	display: block;
 }
-.stu {
-	font-size: 30px;
-}
+
 .kla {
 	max-width: 135px;
 }
@@ -1945,25 +1959,25 @@ nav .menu-text{
 .stt {
 	color: #000;
 	font-size: 17px;
-	line-height: 15px;
+	line-height: 13px;
 }
 .mit-no{
-	font-size: 26px;
 	color: #636463;
-
 }
 
 .wtbl, .mob-wtbl {
 	background: #fff;
-	height: 100%;
+	height: 284px;
 	padding: 20px;
+
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
 }
 .wtbl {
-	padding-top: 36px;
+	padding-top: 30px;
 	padding-bottom: 42px;
 	padding-left: 40px;
 	padding-right: 40px;
+
 }
 .wtbl td, .mob-wtbl td{
 	vertical-align: middle;
