@@ -55,18 +55,24 @@ h6{
 }
 .col-lg-294 {
 	width: 324px;
-	flex: 1;
 }
 .col-lg-auto{
-	flex: 1;
 }
 @media (min-width: 992px){
 	.col-lg-294 {
 		max-width: 324px;
+		flex: 1;
 	}
 	.col-lg-auto{
 		flex: 1;
 	}
+}
+.bap {
+	width: 200px;
+}
+.balan {
+	width: 100%;
+	text-align: right;
 }
 .menu-icon-wrapper {
 	width: 100%;
@@ -879,7 +885,7 @@ nav .menu-text{
 }
 .boimg img {
 	/* max-width: 100%; */
-	width: 100%;
+	max-width: 100%;
 	height: 284px;
 }
 .for-date {
