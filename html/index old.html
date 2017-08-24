@@ -162,7 +162,40 @@
 		<div class="container info-section kali">
 			<div class="tiu">
 				<h2 class="text-center">Finansiell Information</h2>
-				<hr class="line1">
+				$('.j-btn').on('click', function(e){
+	e.preventDefault()
+	$('.l-btn').removeClass('active')
+	$('.regi').toggle()
+	$('.milk-pink').hide()
+	$(this).toggleClass('active')
+	if ( $('.regi').is(":visible")) {
+		$('body').addClass('of')
+	}else{
+		$('body').removeClass('of')
+	}
+	if ($('.mass').is(":visible")) {
+		$('.mass').addClass('hide')
+	}else{
+		$('.mass').removeClass('hide')
+	}
+})
+$('.l-btn').on('click', function(e){
+	e.preventDefault()
+	$('.j-btn').removeClass('active')
+	$('.milk-pink').toggle()
+	$('.regi').hide()
+	$(this).toggleClass('active')
+	if ( $('.milk-pink').is(":visible")) {
+		$('body').addClass('of')
+	}else{
+		$('body').removeClass('of')
+	}
+	if ($('.mass').is(":visible")) {
+		$('.mass').addClass('hide')
+	}else{
+		$('.mass').removeClass('hide')
+	}
+<hr class="line1">
 			</div>
 			<div class="row al">
 				<div class="col-md-6">

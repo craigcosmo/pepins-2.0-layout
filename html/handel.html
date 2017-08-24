@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="../index.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script>
+		
 		$(function(){
 			$('.menu-btn-wrapper').on('click', function(e){
 				e.preventDefault()
@@ -41,6 +42,16 @@
 				$('.regi').toggle()
 				$('.milk-pink').hide()
 				$(this).toggleClass('active')
+				if ( $('.regi').is(":visible")) {
+					$('body').addClass('of')
+				}else{
+					$('body').removeClass('of')
+				}
+				if ($('.mass').is(":visible")) {
+					$('.mass').addClass('hide')
+				}else{
+					$('.mass').removeClass('hide')
+				}
 			})
 			$('.l-btn').on('click', function(e){
 				e.preventDefault()
@@ -48,8 +59,19 @@
 				$('.milk-pink').toggle()
 				$('.regi').hide()
 				$(this).toggleClass('active')
+				if ( $('.milk-pink').is(":visible")) {
+					$('body').addClass('of')
+				}else{
+					$('body').removeClass('of')
+				}
+				if ($('.mass').is(":visible")) {
+					$('.mass').addClass('hide')
+				}else{
+					$('.mass').removeClass('hide')
+				}
 			})
 		})
+
 	</script>
 </head>
 <body>
@@ -135,7 +157,7 @@
 				<div class="container welcome-section kali">
 					<div class="miu">
 						<h2 class="text-center">VÄLKOMMEN TILL PEPINS!</h2>
-						<hr class="line1"></hr>
+						<hr class="line1">
 					</div>
 					<p class="incopy1 vik" style="margin-bottom:30px">Som en del av Pepins nätverk kommer du att få möjlighet att investera ti- digt i tillväxtbolag och även kunna vara med och påverka din investering och hjälpa alla våra Pepinsbolag. Som medlem i Pepins får du:</p>
 					<ul class="bak">
@@ -193,7 +215,7 @@
 						<div class="col-4">
 							<div class="kiu">
 								<h2 class="text-center">LOGGA IN</h2>
-								<hr class="line1"></hr>
+								<hr class="line1">
 								<form>
 									<input class="log-input vini mb24" type="" name="" placeholder="E-MAILADRESS">
 									<input class="log-input vini mb24" type="" name="" placeholder="LÖSENORD">
