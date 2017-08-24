@@ -25,12 +25,18 @@
 				e.preventDefault()
 				$('.min-menu').toggle()
 			})
+			let drop = false
 			$('.j-btn').on('click', function(e){
 				e.preventDefault()
 				$('.l-btn').removeClass('active')
 				$('.regi').toggle()
 				$('.milk-pink').hide()
 				$(this).toggleClass('active')
+				if ( $('.regi').is(":visible")) {
+					$('body').addClass('of')
+				}else{
+					$('body').removeClass('of')
+				}
 			})
 			$('.l-btn').on('click', function(e){
 				e.preventDefault()
@@ -38,6 +44,11 @@
 				$('.milk-pink').toggle()
 				$('.regi').hide()
 				$(this).toggleClass('active')
+				if ( $('.milk-pink').is(":visible")) {
+					$('body').addClass('of')
+				}else{
+					$('body').removeClass('of')
+				}
 			})
 		})
 	</script>

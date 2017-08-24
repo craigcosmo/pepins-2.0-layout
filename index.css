@@ -4,6 +4,9 @@ body{
 	font-family: 'apercu', arial;
 	font-weight: 300 !important;
 	position: relative;
+	
+}
+.of {
 	overflow: hidden;
 }
 a{
