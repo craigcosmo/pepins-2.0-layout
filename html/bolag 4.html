@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="../index.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script>
+		
 		$(function(){
 			$('.menu-btn-wrapper').on('click', function(e){
 				e.preventDefault()
@@ -28,7 +29,48 @@
 			$('.menu-icon').on('click', function(e){
 				$('.opened-menu').show()
 			})
+			let docwidth = $( document ).width()
+			let pagewidth = $('.kali').outerWidth()
+			let cellwidth = (docwidth - pagewidth)/2
+			console.log(cellwidth)
+			$('.jik').css('width', cellwidth)
+
+			
+			$('.j-btn').on('click', function(e){
+				e.preventDefault()
+				$('.l-btn').removeClass('active')
+				$('.moss').addClass('hide')
+				$(this).toggleClass('active')
+				if ( $('.mass').is(":visible")) {
+					$('body').removeClass('of')
+				}else{
+					$('body').addClass('of')
+				}
+				if ($('.mass').is(":visible")) {
+					$('.mass').addClass('hide')
+				}else{
+					$('.mass').removeClass('hide')
+				}
+			})
+			$('.l-btn').on('click', function(e){
+				e.preventDefault()
+				$('.j-btn').removeClass('active')
+				$('.mass').addClass('hide')
+				$(this).toggleClass('active')
+				if ( $('.moss').is(":visible")) {
+					console.log('long long')
+					$('body').removeClass('of')
+				}else{
+					$('body').addClass('of')
+				}
+				if ($('.moss').is(":visible")) {
+					$('.moss').addClass('hide')
+				}else{
+					$('.moss').removeClass('hide')
+				}
+			})
 		})
+
 	</script>
 </head>
 <body>
@@ -72,9 +114,13 @@
 				</div>
 				<div class="col-4 nopad df">
 					<div class="mcc2">
-						<div class="olp">
+						<div class="olp hide">
 							<span class="user-nick">Mitte</span>
 							<span class="user-icon"><img src="../image/girl.jpeg"></span>
+						</div>
+						<div class="log-btn-group brew">
+							<div><a href="#" class="j-btn">JOIN PEPINS</a></div>
+							<div><a href="#" class="l-btn">LOG IN</a></div>
 						</div>
 					</div>
 				</div>
@@ -100,6 +146,87 @@
 					<li class="sensi"><span></span></li>
 					<li><a href="" class="menucopy2">KONTAKT</a></li>
 				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="bou"></div>
+	<div class="mass hide">
+		<div class="regi">
+			<div class="isabel">
+				<div class="container welcome-section kali">
+					<div class="miu">
+						<h2 class="text-center">VÄLKOMMEN TILL PEPINS!</h2>
+						<hr class="line1">
+					</div>
+					<p class="incopy1 vik" style="margin-bottom:30px">Som en del av Pepins nätverk kommer du att få möjlighet att investera ti- digt i tillväxtbolag och även kunna vara med och påverka din investering och hjälpa alla våra Pepinsbolag. Som medlem i Pepins får du:</p>
+					<ul class="bak">
+						<li>Information om våra kommande emissioner</li>
+						<li>Inbjudningar till våra investeringsträffar och event</li>
+						<li>Utbildningsmaterial om aktier och hur man investerar i tillxävtbolag</li>
+						<li>TIllgång till Pepins nätverk och forum</li>
+					</ul>
+				</div>
+				<form>
+					<div class="container info-section kali">
+						<div class="row mb24">
+							<div class="col-4">
+								<input type=""  class="reg-input" name="" placeholder="FÖRNAMN">
+							</div>
+							<div class="col-4">
+								<input type=""  class="reg-input" name="" placeholder="E-MAILADRESS">
+							</div>
+							<div class="col-4">
+								<input type=""  class="reg-input" name="" placeholder="VERIFIERA LÖSENORD">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-4">
+								<input type=""  class="reg-input" name="" placeholder="EFTERNAMN">
+							</div>
+							<div class="col-4">
+								<input type=""  class="reg-input" name="" placeholder="LÖSENORD">
+							</div>
+							<div class="col-4">
+								<div class="reg-btn butcopy1 mb20">REGISTRERA</div>
+								<div class="row">
+									<div class="col-2">
+										<input type="checkbox" name="" id="remember">
+									</div>
+									<div class="col-10">
+										<label for="remember"><span class="tang">Genom att bli medlem på Pepins godtar jag Pepins <a href="">medlemsavtal</a> och <a href="">PUL</a></span></label>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="moss hide">
+		<div class="milk-pink">
+			<div class="container">
+				<div class="row">
+					<div class="col-8">
+						<p class="incopy1 soki ">Hej! Du har väl inte glömt att fylla i din ...?
+							Ibland går det fort när vi öppnar för investe- ring och då kan det vara bra att vara helt klar med sin registrering. Enligt lag måste alla våra medlemmar svara fylla i en sk KYC för att kunna investera på Pepins.</p>
+					</div>
+					<div class="col-4">
+						<div class="kiu">
+							<h2 class="text-center">LOGGA IN</h2>
+							<hr class="line1">
+							<form>
+								<input class="log-input vini mb24" type="" name="" placeholder="E-MAILADRESS">
+								<input class="log-input vini mb24" type="" name="" placeholder="LÖSENORD">
+								<div class="reg-btn butcopy1 mb20">LOGGA IN</div>
+								<p class="il text-center">Alternativt</p>
+								<input class="log-input vini mb24" type="" name="" placeholder="PERSONNUMMER"> 
+								<div class="b-btn">LOGGA IN MED BANKID</div>
+							</form>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

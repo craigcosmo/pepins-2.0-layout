@@ -2081,7 +2081,6 @@ a.l-btn.active {
 	background: #CDC6C0;
 	margin-bottom: 0;
 	width: 100%;
-	display: none;
 }
 .milk-pink{
 	background: #FCE7E2;
@@ -2255,7 +2254,7 @@ a.l-btn.active {
 .gyt {
 	width: 100%;
 }
-.mass{
+.mass, .moss{
 	z-index: 999;
 	position: fixed;
 	width: 100%;
@@ -2265,16 +2264,7 @@ a.l-btn.active {
 	left: 0;
 	bottom: 0;
 }
-.moss{
-	z-index: 999;
-	position: fixed;
-	width: 100%;
-	top: 163px;
-	overflow: scroll;
-	right: 0;
-	left: 0;
-	bottom: 0;
-}
+
 .soke{
 	padding-left: 30px;
 }

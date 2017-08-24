@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="../index.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script>
+		
 		$(function(){
 			$('.menu-btn-wrapper').on('click', function(e){
 				e.preventDefault()
@@ -28,21 +29,48 @@
 			$('.menu-icon').on('click', function(e){
 				$('.opened-menu').show()
 			})
+			let docwidth = $( document ).width()
+			let pagewidth = $('.kali').outerWidth()
+			let cellwidth = (docwidth - pagewidth)/2
+			console.log(cellwidth)
+			$('.jik').css('width', cellwidth)
+
+			
 			$('.j-btn').on('click', function(e){
 				e.preventDefault()
 				$('.l-btn').removeClass('active')
-				$('.regi').toggle()
-				$('.milk-pink').hide()
+				$('.moss').addClass('hide')
 				$(this).toggleClass('active')
+				if ( $('.mass').is(":visible")) {
+					$('body').removeClass('of')
+				}else{
+					$('body').addClass('of')
+				}
+				if ($('.mass').is(":visible")) {
+					$('.mass').addClass('hide')
+				}else{
+					$('.mass').removeClass('hide')
+				}
 			})
 			$('.l-btn').on('click', function(e){
 				e.preventDefault()
 				$('.j-btn').removeClass('active')
-				$('.milk-pink').toggle()
-				$('.regi').hide()
+				$('.mass').addClass('hide')
 				$(this).toggleClass('active')
+				if ( $('.moss').is(":visible")) {
+					console.log('long long')
+					$('body').removeClass('of')
+				}else{
+					$('body').addClass('of')
+				}
+				if ($('.moss').is(":visible")) {
+					$('.moss').addClass('hide')
+				}else{
+					$('.moss').removeClass('hide')
+				}
 			})
 		})
+
 	</script>
 </head>
 <body>
@@ -121,7 +149,8 @@
 			</div>
 		</div>
 	<div class="bou"></div>
-	<div class="mass">
+	
+	<div class="mass hide">
 		<div class="regi">
 			<div class="isabel">
 				<div class="container welcome-section kali">
@@ -174,27 +203,27 @@
 				</form>
 			</div>
 		</div>
-
-		<div class="milk-pink hide">
+	</div>
+	<div class="moss hide">
+		<div class="milk-pink">
 			<div class="container">
 				<div class="row">
 					<div class="col-8">
 						<p class="incopy1 soki ">Hej! Du har väl inte glömt att fylla i din ...?
 							Ibland går det fort när vi öppnar för investe- ring och då kan det vara bra att vara helt klar med sin registrering. Enligt lag måste alla våra medlemmar svara fylla i en sk KYC för att kunna investera på Pepins.</p>
-						</div>
-						<div class="col-4">
-							<div class="kiu">
-								<h2 class="text-center">LOGGA IN</h2>
-								<hr class="line1">
-								<form>
-									<input class="log-input vini mb24" type="" name="" placeholder="E-MAILADRESS">
-									<input class="log-input vini mb24" type="" name="" placeholder="LÖSENORD">
-									<div class="reg-btn butcopy1 mb20">LOGGA IN</div>
-									<p class="il text-center">Alternativt</p>
-									<input class="log-input vini mb24" type="" name="" placeholder="PERSONNUMMER"> 
-									<div class="b-btn">LOGGA IN MED BANKID</div>
-								</form>
-							</div>
+					</div>
+					<div class="col-4">
+						<div class="kiu">
+							<h2 class="text-center">LOGGA IN</h2>
+							<hr class="line1">
+							<form>
+								<input class="log-input vini mb24" type="" name="" placeholder="E-MAILADRESS">
+								<input class="log-input vini mb24" type="" name="" placeholder="LÖSENORD">
+								<div class="reg-btn butcopy1 mb20">LOGGA IN</div>
+								<p class="il text-center">Alternativt</p>
+								<input class="log-input vini mb24" type="" name="" placeholder="PERSONNUMMER"> 
+								<div class="b-btn">LOGGA IN MED BANKID</div>
+							</form>
 						</div>
 					</div>
 				</div>
