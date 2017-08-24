@@ -4,6 +4,7 @@ body{
 	font-family: 'apercu', arial;
 	font-weight: 300 !important;
 	position: relative;
+	overflow: hidden;
 }
 a{
 	color: #0C6FA6;
@@ -793,7 +794,7 @@ nav .menu-text{
 	background: #F3F0EB;
 }
 .bou {
-	margin-top: 161px;
+	margin-top: 163px;
 }
 .cop {
 	text-align: center;
@@ -899,10 +900,7 @@ nav .menu-text{
 	margin-top: 120px;
 	margin-bottom: 80px;
 }
-.milk-pink{
-	background: #FCE7E2;
-	padding-bottom: 400px;
-}
+
 .pin {
 	margin-top:auto;
 	/* margin-bottom: 12px; */
@@ -2072,14 +2070,19 @@ a.l-btn.active {
 	padding-left: 48px;
 	display: none;
 }
-.regi {
-	/* position: absolute; */
-	top: 100%;
-	z-index: 100;
+.regi, .milk-pink {
+	width: 100%;
+	z-index: 9999;
+}
+.regi {	
 	background: #CDC6C0;
 	margin-bottom: 0;
 	width: 100%;
 	display: none;
+}
+.milk-pink{
+	background: #FCE7E2;
+	padding-bottom: 400px;
 }
 .miu {
 	padding-top: 40px;
@@ -2251,6 +2254,13 @@ a.l-btn.active {
 }
 .mass{
 	z-index: 999;
+	position: fixed;
+	width: 100%;
+	top: 163px;
+	overflow: scroll;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
 .soke{
 	padding-left: 30px;
@@ -2443,7 +2453,7 @@ a.l-btn.active {
 
 @media (min-width: 576px) {
 	.bou{
-		margin-top: 161px;
+		margin-top: 163px;
 	}
 	.stay {
 		height: 120px;
@@ -2490,7 +2500,7 @@ a.l-btn.active {
 		padding-top: 30px;
 	}
 	.bou{
-		margin-top: 161px;
+		margin-top: 163px;
 	}
 	.stay {
 		height: 100px;
