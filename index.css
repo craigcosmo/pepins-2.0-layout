@@ -608,7 +608,8 @@ h6{
 	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.12);
 }
 .opened-menu {
-	background: rgba(255, 255, 255, 0.5);
+	/* background: rgba(255, 255, 255, 0.5); */
+	background: #fff;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -618,6 +619,7 @@ h6{
 	text-transform: uppercase;
 	vertical-align: middle;
 	display: none;
+	padding-top: 50px;
 }
 .opened-menu .close-menu {
 	position: absolute;
@@ -629,6 +631,7 @@ h6{
 	background: url('image/plus.png') no-repeat center center ;
 	background-size: cover;
 	transform: rotate(45deg);
+	cursor: pointer;
 }
 .menu-wrapper {
 	position: fixed;
@@ -640,7 +643,7 @@ h6{
 	font-size: 30px;
 	color: #000;
 	display: inline-block;
-	margin-top: 20%;
+	margin-top: 20px
 }
 .mono {
 	font-family: 'apercu mono';
