@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="../index.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script>
+		
 		$(function(){
 			$('.menu-btn-wrapper').on('click', function(e){
 				e.preventDefault()
@@ -19,10 +20,12 @@
 			})
 			$('.mov-nav a.inve').on('click', function(e){
 				e.preventDefault()
-				$('.sub-mov').toggle()
+				$('.min-menu').hide()
+				$('.inve-menu').toggle()
 			})
 			$('.mov-nav a.min').on('click', function(e){
 				e.preventDefault()
+				$('.inve-menu').hide()
 				$('.min-menu').toggle()
 			})
 			$('.menu-icon').on('click', function(e){
@@ -33,7 +36,52 @@
 			let cellwidth = (docwidth - pagewidth)/2
 			console.log(cellwidth)
 			$('.jik').css('width', cellwidth)
+
+			
+			$('.j-btn').on('click', function(e){
+				e.preventDefault()
+				$('.l-btn').removeClass('active')
+				$('.moss').addClass('hide')
+				$(this).toggleClass('active')
+				if ( $('.mass').is(":visible")) {
+					$('body').removeClass('of')
+				}else{
+					$('body').addClass('of')
+				}
+				if ($('.mass').is(":visible")) {
+					$('.mass').addClass('hide')
+				}else{
+					$('.mass').removeClass('hide')
+				}
+			})
+			$('.l-btn').on('click', function(e){
+				e.preventDefault()
+				$('.j-btn').removeClass('active')
+				$('.mass').addClass('hide')
+				$(this).toggleClass('active')
+				if ( $('.moss').is(":visible")) {
+					console.log('long long')
+					$('body').removeClass('of')
+				}else{
+					$('body').addClass('of')
+				}
+				if ($('.moss').is(":visible")) {
+					$('.moss').addClass('hide')
+				}else{
+					$('.moss').removeClass('hide')
+				}
+			})
+			$('.in-btn').on('click', function(){
+				$('.subnav-in').toggleClass('hide')
+			})
+			$('.han-btn').on('click', function(){
+				$('.subnav-han').toggleClass('hide')
+			})
+			$('.o-btn').on('click', function(){
+				$('.subnav-o').toggleClass('hide')
+			})
 		})
+
 	</script>
 </head>
 <body>

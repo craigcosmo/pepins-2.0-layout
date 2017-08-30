@@ -20,10 +20,12 @@
 			})
 			$('.mov-nav a.inve').on('click', function(e){
 				e.preventDefault()
-				$('.sub-mov').toggle()
+				$('.min-menu').hide()
+				$('.inve-menu').toggle()
 			})
 			$('.mov-nav a.min').on('click', function(e){
 				e.preventDefault()
+				$('.inve-menu').hide()
 				$('.min-menu').toggle()
 			})
 			$('.menu-icon').on('click', function(e){
@@ -68,6 +70,15 @@
 				}else{
 					$('.moss').removeClass('hide')
 				}
+			})
+			$('.in-btn').on('click', function(){
+				$('.subnav-in').toggleClass('hide')
+			})
+			$('.han-btn').on('click', function(){
+				$('.subnav-han').toggleClass('hide')
+			})
+			$('.o-btn').on('click', function(){
+				$('.subnav-o').toggleClass('hide')
 			})
 		})
 
