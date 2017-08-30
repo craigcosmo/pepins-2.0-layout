@@ -54,9 +54,12 @@ h6{
 	font-size: 16px;
 }
 .subnav {
-	padding-left: 25px;
-	font-size: 14px;
+	/* padding-left: 25px; */
+	font-size: 16px !important;
 	font-weight: 100;
+}
+.subnav:first-child{
+	margin-top: 20px;
 }
 .oma{
 	color: #000;
