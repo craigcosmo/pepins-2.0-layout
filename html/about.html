@@ -69,6 +69,9 @@
 					$('.moss').removeClass('hide')
 				}
 			})
+			$('.in-btn').on('click', function(){
+				$('.subnav-in').toggleClass('hide')
+			})
 		})
 
 	</script>
@@ -347,14 +350,19 @@
 			</div>
 		</div>
 		
+	
 		<div class="opened-menu text-center">
 			<span class="close-menu"></span>
-			<div><a href="" class="menu-link">INVESTERINGAR</a></div>
-			<div><a href="" class="menu-link">FORUM</a></div>
-			<div><a href="" class="menu-link">AVISERINGAR</a></div>
-			<div><a href="" class="menu-link">MIN PROFIL</a></div>
-			<div><a href="" class="menu-link">JOIN PEPINS</a></div>
-			<div><a href="" class="menu-link">LOG IN</a></div>
+			<div><a href="#" class="menu-link in-btn">INVESTERINGAR</a></div>
+			<div><a href="#" class="menu-link subnav subnav-in hide">ALLA BOLAG</a></div>
+			<div><a href="#" class="menu-link subnav subnav-in hide">KOMMANDE</a></div>
+			<div><a href="#" class="menu-link subnav subnav-in hide">PÅGÅENDE</a></div>
+			<div><a href="#" class="menu-link subnav subnav-in hide">FULLTECKNADE</a></div>
+			<div><a href="#" class="menu-link">FORUM</a></div>
+			<div><a href="#" class="menu-link">AVISERINGAR</a></div>
+			<div><a href="#" class="menu-link">MIN PROFIL</a></div>
+			<div><a href="#" class="menu-link">JOIN PEPINS</a></div>
+			<div><a href="#" class="menu-link">LOG IN</a></div>
 		</div>
 	</body>
 	</html>
