@@ -893,7 +893,7 @@ nav .menu-text{
 	margin-bottom: 8px;
 }
 .bbf {
-	background: #EDE8E3;
+	background: #E5DFD4;
 	padding-top: 27px;
 	padding-bottom: 28px;
 }
@@ -1081,6 +1081,9 @@ nav .menu-text{
 	font-size: 17px;
 	font-weight: 100;
 }
+.f-section{
+	padding-bottom: 47px;
+}
 .info-section {
 
 	padding-bottom: 77px;
@@ -1093,7 +1096,10 @@ nav .menu-text{
 	padding-top: 82px;
 	padding-bottom: 103px;
 }
-
+.ttf {
+	padding-top: 82px;
+	padding-bottom: 60px;
+}
 .bnav .page-link{
 	padding-top: 0;
 	padding-bottom: 0;
@@ -2031,6 +2037,9 @@ nav .menu-text{
 .mak {
 	padding-top: 0px !important;
 }
+.pearl{
+	background-color: #E5DFD4;
+}
 .mov-nav {
 	list-style-type: none;
 	margin-bottom: 0;
@@ -2054,7 +2063,7 @@ nav .menu-text{
 }
 
 .mov-nav li a:hover {
-	background: #F3F0EB;
+	background: #CDC6C0;
 	color: #000 !important;
 }
 
